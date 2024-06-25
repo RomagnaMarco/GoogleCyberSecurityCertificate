@@ -37,3 +37,11 @@ Security professionals must be constantly improving their skills. A Security Ana
 
 Ensuring the organization and the people in it are safe is a big responsibility.
 
+### Day-to-Day Cybersecurity Operations:
+There are two sides in day-to-day cybersecurity:
+
+- **Operations**: Responding to detections and conducting investigations. Security Analysts focus more on this.
+- **Projects**: Working with other teams to build new detections or improve the current detections. Security Engineers focus more on this.
+
+### Playbook:
+A playbook is a list of procedures detailing how to handle a specific detection, outlining what the analyst needs to look at to investigate those incidents.
