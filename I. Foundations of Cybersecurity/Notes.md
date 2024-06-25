@@ -21,3 +21,19 @@ An important part of security professionals' roles is maintaining Brand Trust.
 2. Cybersecurity Analyst or Specialist
 3. Security Operations Center (SOC) Analyst
 4. Information Security Analyst
+
+# Responsibilities of an Entry-Level Cybersecurity Analyst
+
+Security professionals must be constantly improving their skills. A Security Analyst is responsible for monitoring and protecting information and systems.
+
+### Primary Responsibilities:
+1. **Protecting computer and network systems**
+    - Monitoring the internal systems until a threat is detected
+    - Often look for weaknesses in the organization's own systems to prevent problems ahead of time (penetration testing/ethical hacking) to strengthen their own system and test security measures
+2. **Work with IT in installing prevention software**
+    - Work with development teams and ensure the organization is meeting its data protection needs
+3. **Periodic Security Audits**
+    - Review records and activities
+
+Ensuring the organization and the people in it are safe is a big responsibility.
+
