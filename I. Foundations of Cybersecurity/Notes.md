@@ -89,8 +89,3 @@ Knowing terminology is important to any cybersecurity analyst. Keeping up to dat
 ### Personally Identifiable Information (PII)
 - **PII**: Any information used to infer an individual's identity.
 - **Sensitive PII (SPII)**: This falls under stricter handling guidelines (e.g., SSN, medical, biometric information).
-
-
-
-
-- 
