@@ -6,7 +6,7 @@ Security Analysts serve to protect an organization from internal and external th
 
 ### Threat Actors
 
-**Threat Actors**: Any person or group who presents a security risk.
+**Threat Actors** are any person or group who presents a security risk.
 
 #### External Threats
 - From those outside the organization trying to gain access to information, networks, or devices.
