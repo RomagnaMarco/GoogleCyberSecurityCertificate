@@ -69,4 +69,28 @@ Knowing terminology is important to any cybersecurity analyst. Keeping up to dat
 - Review web traffic
 - Alert in case of suspicious activity
 
-# Core Skills for cybersecurity Professionals
+# Core Skills for Cybersecurity Professionals
+
+### Transferable vs Technical Skills
+
+**Transferable Skills:**
+- **Communication**: Explaining technical knowledge to individuals of various levels.
+- **Collaboration**
+- **Analysis**
+- **Problem Solving**: Minimizing risks and recognizing attack problems.
+
+**Technical Skills:**
+- **Programming Languages**
+- **Security Information and Event Management (SIEM) Tools**: Often used during periodic security audits to identify and analyze security threats, risks, and vulnerabilities.
+- **Computer Forensics**
+- **Intrusion Detection Systems (IDSs)**: A key tool to protect assets and data. Use these to monitor system activity and generate alerts.
+- **Threat Landscape Knowledge**: Stay up to date with current trends on threat actors, malware, or threat methodologies.
+
+### Personally Identifiable Information (PII)
+- **PII**: Any information used to infer an individual's identity.
+- **Sensitive PII (SPII)**: This falls under stricter handling guidelines (e.g., SSN, medical, biometric information).
+
+
+
+
+- 
