@@ -86,3 +86,10 @@ People are trusting, and thus these types of attacks are increasing. It works we
 - **Familiarity**: Fake emotional connections to exploit.
 - **Trust**: Emotional relationship to exploit.
 - **Urgency**: Quick response demanded without questions.
+
+# The first things to do during a data Breach:
+Remember to stay calm and methodically contain the breach. This means you need to stop the data loss as your number 1 priority. A secondary thing to do is then analyze how the breach happened.
+
+# Introduction to the eight CISSP security domains, Part 1
+
+
