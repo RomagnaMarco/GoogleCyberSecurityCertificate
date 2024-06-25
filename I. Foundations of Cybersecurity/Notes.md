@@ -68,3 +68,5 @@ Knowing terminology is important to any cybersecurity analyst. Keeping up to dat
 - Avoid repetitive tasks
 - Review web traffic
 - Alert in case of suspicious activity
+
+# Core Skills for cybersecurity Professionals
