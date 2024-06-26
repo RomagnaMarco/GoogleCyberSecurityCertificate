@@ -71,27 +71,26 @@ Ethical principles in security
 - Privacy protections
 - Laws
 
-# Ethical concepts that guide cybersecurity decisions
+# Ethical Concepts that Guide Cybersecurity Decisions
 
-United States standpoint on counterattacks 
-- Deploying a counterattack on a threat actor is illegal
-- You can only defend
-- Counterattacking in the U.S. is perceived as an act of vigilantism
-- Counterattacks can lead to further escalation of the attack, which can cause even more damage and harm
-- The only individuals in the U.S. who are allowed to counterattack are approved employees of the federal government or military personnel. 
+## United States Standpoint on Counterattacks
+- **Illegal to Deploy Counterattacks**: Deploying a counterattack on a threat actor is illegal in the U.S.
+- **Defensive Measures Only**: You can only defend against attacks.
+- **Perception as Vigilantism**: Counterattacking is perceived as an act of vigilantism.
+- **Risk of Escalation**: Counterattacks can lead to further escalation, causing more damage and harm.
+- **Authorized Counterattacks**: Only approved federal government employees or military personnel are allowed to counterattack.
 
-International standpoint on counterattacks
-- The International Court of Justice (ICJ) allows counterattacks given:
-    - The counterattack will only affect the party that attacked first.
-    - The counterattack is a direct communication asking the initial attacker to stop.
-    - The counterattack does not escalate the situation.
-    - The counterattack effects can be reversed.
-- Because it is hard to measure the above measures, most organizations don't counterattack.
-- Counterattack actions generally lead to a worse outcome, especially when you are not an experienced professional in the field.
+## International Standpoint on Counterattacks
+- **International Court of Justice (ICJ)**: Allows counterattacks under specific conditions:
+  - The counterattack will only affect the party that attacked first.
+  - The counterattack is a direct communication asking the initial attacker to stop.
+  - The counterattack does not escalate the situation.
+  - The counterattack effects can be reversed.
+- **Challenges in Measurement**: Measuring these conditions is difficult, leading most organizations to avoid counterattacks.
+- **Risk of Negative Outcomes**: Counterattack actions generally lead to worse outcomes, especially for those not experienced in the field.
 
-As a professional:
-  - You must remain unbiased and conduct your work honestly, responsibly, and with the highest respect for the law.
-  - Be transparent and just, and rely on evidence.
-  - Ensure that you are consistently invested in the work you are doing, so you can appropriately and ethically address issues that arise.
-  - Stay informed and strive to advance your skills, so you can contribute to the betterment of the cyber landscape
-
+## Professional Conduct
+- **Unbiased and Honest**: Remain unbiased and conduct your work honestly, responsibly, and with the highest respect for the law.
+- **Transparency and Justice**: Be transparent and just, relying on evidence.
+- **Investment in Work**: Ensure consistent investment in your work to appropriately and ethically address arising issues.
+- **Continuous Learning**: Stay informed and strive to advance your skills to contribute to the betterment of the cybersecurity landscape.
