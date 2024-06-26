@@ -61,3 +61,37 @@ Several notable ones:
 ### System and Organizations Controls (SOC type 1, SOC type 2)
 - A series of reports that focus on an organization's user access policies at different organizational levels.
 - Used to assess an organization’s financial compliance and levels of risk. They also cover confidentiality, privacy, integrity, availability, security, and overall data safety.
+
+# Ethics in cybersecurity
+
+Security Ethics: are  guidelines for making appropriate deecisions as a security professional
+
+Ethical principles in security
+- Confidentiality
+- Privacy protections
+- Laws
+
+# Ethical concepts that guide cybersecurity decisions
+
+United States standpoint on counterattacks 
+- Deploying a counterattack on a threat actor is illegal
+- You can only defend
+- Counterattacking in the U.S. is perceived as an act of vigilantism
+- Counterattacks can lead to further escalation of the attack, which can cause even more damage and harm
+- The only individuals in the U.S. who are allowed to counterattack are approved employees of the federal government or military personnel. 
+
+International standpoint on counterattacks
+- The International Court of Justice (ICJ) allows counterattacks given:
+    - The counterattack will only affect the party that attacked first.
+    - The counterattack is a direct communication asking the initial attacker to stop.
+    - The counterattack does not escalate the situation.
+    - The counterattack effects can be reversed.
+- Because it is hard to measure the above measures, most organizations don't counterattack.
+- Counterattack actions generally lead to a worse outcome, especially when you are not an experienced professional in the field.
+
+As a professional:
+  - You must remain unbiased and conduct your work honestly, responsibly, and with the highest respect for the law.
+  - Be transparent and just, and rely on evidence.
+  - Ensure that you are consistently invested in the work you are doing, so you can appropriately and ethically address issues that arise.
+  - Stay informed and strive to advance your skills, so you can contribute to the betterment of the cyber landscape
+
