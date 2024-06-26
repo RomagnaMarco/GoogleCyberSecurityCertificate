@@ -94,3 +94,5 @@ Ethical principles in security
 - **Transparency and Justice**: Be transparent and just, relying on evidence.
 - **Investment in Work**: Ensure consistent investment in your work to appropriately and ethically address arising issues.
 - **Continuous Learning**: Stay informed and strive to advance your skills to contribute to the betterment of the cybersecurity landscape.
+
+
