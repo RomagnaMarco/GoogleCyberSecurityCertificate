@@ -90,6 +90,35 @@ People are trusting, and thus these types of attacks are increasing. It works we
 # The first things to do during a data Breach:
 Remember to stay calm and methodically contain the breach. This means you need to stop the data loss as your number 1 priority. A secondary thing to do is then analyze how the breach happened.
 
-# Introduction to the eight CISSP security domains, Part 1
+# Introduction to the Eight CISSP Security Domains
+
+Depending on the organization, your role will focus either on just one domain or several domains.
+
+## The Eight Domains:
+
+### 1. Security and Risk Management
+- Defines security goals and objectives, risk mitigation, compliance, business continuity, and the law.
+
+### 2. Asset Security
+- Secures digital and physical assets. Related to storage, maintenance, retention, and destruction of data.
+
+### 3. Security Architecture and Engineering
+- Optimizes data security by ensuring effective tools, systems, and processes are in place.
+
+### 4. Communications and Network Security
+- Manages and secures physical networks and wireless communications.
+
+### 5. Identity and Access Management
+- Keeps data secure by ensuring users follow established policies to control and manage physical and logical assets alike.
+
+### 6. Security Assessment and Testing
+- Conducts security control testing, collects and analyzes data, and conducts security audits to monitor for risks, threats, and vulnerabilities.
+
+### 7. Security Operations
+- Conducts investigations and implements preventive measures.
+
+### 8. Software Development Security
+- Uses secure coding practices (guidelines) when creating secure applications and services.
 
 
+# Types of attacks
