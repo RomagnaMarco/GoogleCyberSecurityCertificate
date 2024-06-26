@@ -121,4 +121,33 @@ Depending on the organization, your role will focus either on just one domain or
 - Uses secure coding practices (guidelines) when creating secure applications and services.
 
 
-# Types of attacks
+# Types of Attacks
+
+## Password Attack
+- An attempt to access password-secured devices, systems, networks, or data.
+- These can include brute force attempts or rainbow tables.
+- **Domain:** Communication and Network Security
+
+## Social Engineering
+- A manipulation technique that exploits human error to gain private info, access, or valuables.
+- **Domain:** Security and Risk Management
+
+## Physical Attack
+- A security incident that affects physical environments where the incident is deployed.
+- These can include malicious USB cables, flash drives, or card cloning and skimming.
+- **Domain:** Asset Security
+
+## Adversarial Artificial Intelligence
+- Manipulates AI or ML technology to attack more effectively.
+- **Domains:** Communication and Network Security, Identity and Access Management
+
+## Supply-Chain Attack
+- Targets systems, applications, hardware, and/or software to locate a vulnerability where malware can be deployed. Takes advantage of third parties to breach in different spots in the supply chain.
+- **Domains:** Security and Risk Management, Security Architecture and Engineering, Security Operations
+
+## Cryptographic Attack
+- Affects secure forms of communication between a sender and the intended recipient.
+- Includes Birthday, Collision, and Downgrade attacks.
+- **Domain:** Communication and Network Security
+
+
