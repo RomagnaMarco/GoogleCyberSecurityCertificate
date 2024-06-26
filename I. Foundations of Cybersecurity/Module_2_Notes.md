@@ -150,4 +150,35 @@ Depending on the organization, your role will focus either on just one domain or
 - Includes Birthday, Collision, and Downgrade attacks.
 - **Domain:** Communication and Network Security
 
+# Understanding Attackers
+
+The following are some threat actor types.
+
+## Advanced Persistent Threats (APTs)
+- Have significant expertise in accessing an organization's network without authorization.
+- They research their targets in advance and tend to remain undetected for an extended period of time.
+- **Motivations**: 
+  - Damage critical infrastructure
+  - Gain access to intellectual property
+
+## Insider Threats
+- Generally abuse their authorized access to sabotage, engage in corruption, espionage, or grant others unauthorized data access, or leak data.
+
+## Hacktivists
+- Threat actors driven by a political agenda.
+- **Activities**:
+  - Demonstrations
+  - Propaganda
+  - Social change campaigns
+  - Fame
+
+## Hackers
+- Any person who uses computers to gain access to computer systems, networks, or data.
+- **Types**:
+  1. **Ethical Hackers (Authorized)**
+  2. **Researchers (Semi-Authorized)**
+  3. **Unethical Hackers (Unauthorized)**
+- Others can be considered freelancers and fill any of these categories based on their contracts or goals.
+- Some hackers can consider themselves vigilantes, seek revenge, or develop their skills.
+
 
