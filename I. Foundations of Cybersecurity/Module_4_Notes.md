@@ -40,15 +40,17 @@ Organizations usually have multiple playbooks documenting processes and procedur
 
 Programming generally helps reduce human error and can help with repetitive tasks.
 
-Linux: An open-source(publically available) operating system, not a a programming langauge.
-- Relies on the Command line, but also has some GUI support.
+## Linux
+- **Definition**: An open-source (publicly available) operating system, not a programming language.
+- **Features**:
+  - Relies on the command line, but also has some GUI support.
 
-Structured Query Language (SQL): A program language used to create, interact with, and request information from a database.
+## Structured Query Language (SQL)
+- **Definition**: A programming language used to create, interact with, and request information from a database.
+- **Purpose**: Databases are organized collections of data that can contain millions of data points. SQL is very powerful in allowing us to navigate in the database.
 
-Databases are organized collections of data, that can contain millions of data points. SQL is very powerful in allowing us to navigate in the database.
-
-Python: used to perform tasks that are repetitive and time consuming, and that require a high level of detail and accuracy. 
-
+## Python
+- **Purpose**: Used to perform tasks that are repetitive and time-consuming, and that require a high level of detail and accuracy.
 
 
 
