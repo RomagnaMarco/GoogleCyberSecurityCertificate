@@ -1,29 +1,32 @@
 # Exploring the CISSP Security Domains
 
-Security Posture: an organizations ability to manage its defense of critical assets and data, and react to change.
+## Security Posture
+- **Definition**: An organization's ability to manage its defense of critical assets and data, and react to change.
 
 ## Security and Risk Management
-- Defining security goals and objectives, risk mitigation, compliance, business continuity, and legal regulations.
+- **Focus**: Defining security goals and objectives, risk mitigation, compliance, business continuity, and legal regulations.
 
-Risk mitigation: the process of having the right procedures and rules in place to quickly reduce the impact of a risk like a breach.
-Compliance: the primary method used to develop an organization's internal security policies, regulatory requirements, and independent standards.
-Business continuity: an oganization's ability to maintain theri everyday productivity by establishing  risk disaster recovery plans.
+### Key Concepts:
+- **Risk Mitigation**: Procedures and rules in place to quickly reduce the impact of risks like breaches.
+- **Compliance**: Developing internal security policies, regulatory requirements, and independent standards.
+- **Business Continuity**: Maintaining everyday productivity by establishing disaster recovery plans.
 
 ## Asset Security
-- Focused on securing digital and physical assets. Also: storage, maintenance, rentention, and destruction of data.
+- **Focus**: Securing digital and physical assets, including storage, maintenance, retention, and destruction of data.
 
-There is a critical need to securely handle and protect both PII and SPII. Policies and procedures should ensure these are always accounted for and have oversight.
+### Key Concept:
+- **Handling PII and SPII**: Ensuring policies and procedures are in place to securely handle and protect Personally Identifiable Information (PII) and Sensitive Personally Identifiable Information (SPII).
 
 ## Security Architecture and Engineering
-- Optimizing data security by ensuring effective tools, systems, and processes are in place to protect an organization's assets and data.
+- **Focus**: Optimizing data security by ensuring effective tools, systems, and processes are in place to protect an organization's assets and data.
 
-Shared Responsibility: all individuals within an organization take an active role in lowering risk and maintaining both physical and virtual security.
-Policies should have users report security concerns.
+### Key Concept:
+- **Shared Responsibility**: All individuals within an organization actively participate in lowering risk and maintaining both physical and virtual security. Policies should encourage users to report security concerns.
 
-## Communication and network security
-- Focused on managing and securing physical networks and wireless communications
+## Communication and Network Security
+- **Focus**: Managing and securing physical networks and wireless communications.
 
-At the organizational levels, teams can remove access to unsafe communication channels or networks. It helps discourage employees from using unsecure behavoir that could be exploited by threat actors.
-
+### Key Concept:
+- **Removing Unsafe Access**: Teams can remove access to unsafe communication channels or networks at the organizational level, discouraging employees from engaging in insecure behavior that could be exploited by threat actors.
 
 
