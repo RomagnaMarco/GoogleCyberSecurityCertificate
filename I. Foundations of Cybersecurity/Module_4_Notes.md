@@ -52,6 +52,19 @@ Programming generally helps reduce human error and can help with repetitive task
 ## Python
 - **Purpose**: Used to perform tasks that are repetitive and time-consuming, and that require a high level of detail and accuracy.
 
+# Use tools to protect business Operations
 
+- Automation: the use of technology to reduce human and manual effort in performing common and repetitive tasks.
+- Data point: a specific piece of information. These are usually in a database.
+- Operating system: is the interface between computer hardware and the user. Linux®, macOS®, and Windows are operating systems.
+- Command-line interface (CLi): is a text-based user interface that uses commands to interact with the computer.
+- Web vulnerability: a unique flaw in a web application that a threat actor could exploit by using malicious code or behavior, to allow unauthorized access, data theft, and malware deployment.
+- Antivirus software: a software program used to prevent, detect, and eliminate malware and viruses. It is also called anti-malware.
+- Intrusion detection system (IDS): an application that monitors system activity and alerts on possible intrusions. The system scans and analyzes network packets, where the small amount of data in the packets makes the detection process easier for an IDS to identify potential threats to sensitive data
+- Encryption: the process of converting data from a readable format to a cryptographically encoded format.
+- Cryptographic encoding: means converting plaintext into secure ciphertext.
+- Plaintext: is unencrypted information
+- Secure ciphertext: the result of encryption
+- Penetration testing(pen testing): the act of participating in a simulated attack that helps identify vulnerabilities in systems, networks, websites, applications, and processes.
 
 
