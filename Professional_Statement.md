@@ -1,5 +1,7 @@
 # Professional Statement
 
+My name is Marco Romagna. I am dedicated to advancing my career in SQL and cybersecurity while prioritizing health, safety, and positive influence. I am committed to ensuring the integrity and safety of my work amidst the rapid advancement of technology.
+
 ## Introduction
 
 I, Marco Romagna, am an aspiring professional who is actively progressing my career every day while not sacrificing my health or connections.
