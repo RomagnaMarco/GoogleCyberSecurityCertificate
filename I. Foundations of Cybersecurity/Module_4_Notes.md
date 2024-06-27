@@ -35,3 +35,21 @@ Organizations usually have multiple playbooks documenting processes and procedur
      - When evidence is improperly managed during an investigation, it can no longer be used.
      - The first priority in any investigation is to properly preserve the data.
      - Making copies is useful to preserve the data while investigating.
+
+# Introduction to Linux, SQL, and Python
+
+Programming generally helps reduce human error and can help with repetitive tasks.
+
+Linux: An open-source(publically available) operating system, not a a programming langauge.
+- Relies on the Command line, but also has some GUI support.
+
+Structured Query Language (SQL): A program language used to create, interact with, and request information from a database.
+
+Databases are organized collections of data, that can contain millions of data points. SQL is very powerful in allowing us to navigate in the database.
+
+Python: used to perform tasks that are repetitive and time consuming, and that require a high level of detail and accuracy. 
+
+
+
+
+
