@@ -29,4 +29,32 @@
 ### Key Concept:
 - **Removing Unsafe Access**: Teams can remove access to unsafe communication channels or networks at the organizational level, discouraging employees from engaging in insecure behavior that could be exploited by threat actors.
 
+## Identity and Access Management
+- Focused on access and authorization to keep data secure, by making sure users  follow established policies to control and manage assets.
 
+Limit employee's access to only what they need and reduce the overall risk to systems and data.
+4 Main components:
+1. Identification: user verfication
+2. Authentication: proof ID with pass or pin
+3. Authorization: level of access
+4. Accountability: monitoring and recording user actions
+
+## Security Assessment and testing
+- Focused on conducting security control  testing, collecting and analyzing data, and conducting security audits to monitor risks, threats, and vulnerabilities.
+
+This domain involves examining organizational goals and objectives, and evaluating if the controls being used actually achieve those goals.
+
+
+## Security Operations
+- Focused on conducting investigations and implementing preventative measures
+
+Mitigating active attacks and preventing escalation is critical. Upon neutralization, physical and digital evidence begins to start a forensic investigation.
+
+## Software Development Security
+- Focused on using secure coding practices
+
+Security is an additional step in each phase of the software development lifecycle.
+
+
+
+  
