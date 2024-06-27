@@ -11,11 +11,15 @@
 - **Compliance**: Developing internal security policies, regulatory requirements, and independent standards.
 - **Business Continuity**: Maintaining everyday productivity by establishing disaster recovery plans.
 
+An organization may use playbooks and implement training as part of their security and risk management program. This domain is related to Information Security (InfoSec), and how it has a set of processes to establish secure information.
+
 ## Asset Security
 - **Focus**: Securing digital and physical assets, including storage, maintenance, retention, and destruction of data.
 
 ### Key Concept:
 - **Handling PII and SPII**: Ensuring policies and procedures are in place to securely handle and protect Personally Identifiable Information (PII) and Sensitive Personally Identifiable Information (SPII).
+
+A team could conduct a security impact analsis, establish a recovery plan, or manage data exposure to better manage the organization's assets. They also may make backups to restore the environment in the event a security incident takes place.
 
 ## Security Architecture and Engineering
 - **Focus**: Optimizing data security by ensuring effective tools, systems, and processes are in place to protect an organization's assets and data.
@@ -23,11 +27,15 @@
 ### Key Concept:
 - **Shared Responsibility**: All individuals within an organization actively participate in lowering risk and maintaining both physical and virtual security. Policies should encourage users to report security concerns.
 
+Monitoring unsual logins or activity can be done with SIEM tools. 
+
 ## Communication and Network Security
 - **Focus**: Managing and securing physical networks and wireless communications.
 
 ### Key Concept:
-- **Removing Unsafe Access**: Teams can remove access to unsafe communication channels or networks at the organizational level, discouraging employees from engaging in insecure behavior that could be exploited by threat actors.
+- **Removing Unsafe Access**: Teams can remove access to unsafe communication channels or networks at the organizational level, discouraging employees from engaging in insecure behavior that could be exploited by threat actors. This can be considered "restricted network access"
+
+Is important since organizations need to get work done for remote, hybrid, and on site workers.
 
 ## Identity and Access Management
 - **Focus**: Managing access and authorization to keep data secure by ensuring users follow established policies to control and manage assets.
@@ -47,17 +55,23 @@
 ### Key Concept:
 - **Effectiveness of Controls**: Examining organizational goals and objectives, and evaluating if the controls in place actually achieve those goals.
 
+ Testing user permissions with audits is important to validate correct access levels and the system is secure.
+
 ## Security Operations
 - **Focus**: Conducting investigations and implementing preventative measures.
 
 ### Key Concept:
 - **Incident Response**: Mitigating active attacks and preventing escalation is critical. Upon neutralization, physical and digital evidence is collected to start a forensic investigation.
 
+This involves what happens given a potential breach, and how to resolve it given the existing guidelines.
+
 ## Software Development Security
 - **Focus**: Using secure coding practices.
 
 ### Key Concept:
 - **Security in SDLC**: Security is an additional step in each phase of the software development lifecycle.
+
+Security cannot be an afterthought during development.  There must be Quality Assurance (QA) and pen tester professionals to ensure the software has met security standards.
 
 
 
