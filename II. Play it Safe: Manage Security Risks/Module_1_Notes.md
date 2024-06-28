@@ -92,7 +92,28 @@ Security cannot be an afterthought during development. There must be Quality Ass
 ### High Risk
 - **Description**: Information protected by regulations/laws that would cause severe negative impact on finances, ongoing operations, or reputation if compromised.
 
+# Key impacts of threats, risks, and vulnerabilities
 
+Ransomware: threat actors encrpyt data and damage payment to restore access.
+
+Layers of the web
+- Surface Web: via web browser
+- Deep Web: needs authorization (intranet as example)
+- Dark Web: (needs special software)
+
+  Key Impacts:
+  1. Financial
+     - Interrupted production and services
+     - Cost to correct issue
+     - fines if compromised data
+  2. Identity Theft
+     - How long and how to store PII and SPII
+     - sold on dark web
+   3. Damage to repuation
+     - exploited vulnerability can make customers go elsewhere
+     - bad press
+     - legal penalties in addition to fines
+ 
 
 
 
