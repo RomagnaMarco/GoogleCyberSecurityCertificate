@@ -94,25 +94,52 @@ Security cannot be an afterthought during development. There must be Quality Ass
 
 # Key impacts of threats, risks, and vulnerabilities
 
-Ransomware: threat actors encrpyt data and damage payment to restore access.
+# Threats, Risks, and Vulnerabilities
 
-Layers of the web
-- Surface Web: via web browser
-- Deep Web: needs authorization (intranet as example)
-- Dark Web: (needs special software)
+## Definitions
 
-  Key Impacts:
-  1. Financial
-     - Interrupted production and services
-     - Cost to correct issue
-     - fines if compromised data
-  2. Identity Theft
-     - How long and how to store PII and SPII
-     - sold on dark web
-   3. Damage to repuation
-     - exploited vulnerability can make customers go elsewhere
-     - bad press
-     - legal penalties in addition to fines
+- **Threat**: Any circumstance or event that can negatively impact assets.
+- **Risk**: Anything that can impact the confidentiality, integrity, or availability of an asset; the likelihood of a threat occurring.
+- **Vulnerability**: A weakness that can be exploited by a threat.
+
+## Risk Classification
+
+### Low Risk
+- **Description**: Information that wouldn't harm the reputation or ongoing operations and wouldn't cause financial damage if compromised.
+
+### Medium Risk
+- **Description**: Information not available to the public that could cause harm to reputation, ongoing operations, or financial damage.
+
+### High Risk
+- **Description**: Information protected by regulations/laws that would cause severe negative impact on finances, ongoing operations, or reputation if compromised.
+
+## Ransomware
+- **Description**: Threat actors encrypt data and demand payment to restore access.
+
+## Layers of the Web
+- **Surface Web**: Accessible via standard web browsers.
+- **Deep Web**: Requires authorization (e.g., intranet).
+- **Dark Web**: Requires special software to access.
+
+## Key Impacts of Security Breaches
+
+### 1. Financial
+- **Consequences**:
+  - Interrupted production and services.
+  - Costs to correct the issue.
+  - Fines if data is compromised.
+
+### 2. Identity Theft
+- **Considerations**:
+  - How long and how to store PII and SPII.
+  - Stolen data can be sold on the dark web.
+
+### 3. Damage to Reputation
+- **Consequences**:
+  - Exploited vulnerability can make customers go elsewhere.
+  - Negative press coverage.
+  - Legal penalties in addition to fines.
+
  
 
 
