@@ -166,41 +166,40 @@ Security cannot be an afterthought during development. There must be Quality Ass
 ### 7. Monitor
 - **Objective**: Be aware of how systems are operating.
 
+# Manage Common Threats, Risks, and Vulnerabilities
 
-# Manage common threats, risks, and vulnerabilties
+## Common Risk Management Strategies
+- **Acceptance**: Accepting a risk to avoid disrupting business continuity.
+- **Avoidance**: Creating a plan to avoid the risk altogether.
+- **Transference**: Transferring risk to a third party to manage.
+- **Mitigation**: Lessening the impact of a known risk.
 
-Common Risk Management Strategies:
-- Acceptance: accepting a risk to avoid disrupting business continuity
-- Avoidance: creating a plan to avoid the risk altogether
-- Transferance: transferring risk to a third party to manage
-- Mitigation: Lessening the impact of a known risk
-
-Some things that can affect the likelyhood of risk:
+### Factors Affecting the Likelihood of Risk
 - External risk
 - Internal risk
 - Legacy systems
-- multiparty risk
-- software compliance/licensing
+- Multiparty risk
+- Software compliance/licensing
 
-OWASP 10 common attack types
+## OWASP Top 10 Common Attack Types
 1. Injection
 2. Broken Authentication
-3. Sensitive data exposure
+3. Sensitive Data Exposure
 4. XML External Entities (XXE)
 5. Broken Access Control
 6. Security Misconfiguration
-7. Cross-Site-Scripting (XSS)
+7. Cross-Site Scripting (XSS)
 8. Insecure Deserialization
-9. Using components with known Vulnerabilities
+9. Using Components with Known Vulnerabilities
 10. Insufficient Logging & Monitoring
 
-Vulnerabilities:
-- ProxyLogon: A pre-authenticated vulnerability that affects the Microsoft Exchange server. This means a threat actor can complete a user authentication process to deploy malicious code from a remote location.
-- ZeroLogon: A vulnerability in Microsoft’s Netlogon authentication protocol. An authentication protocol is a way to verify a person's identity. Netlogon is a service that ensures a user’s identity before allowing access to a website's location.
-- Log4Shell: Allows attackers to run Java code on someone else’s computer or leak sensitive information. It does this by enabling a remote attacker to take control of devices connected to the internet and run malicious code.
-- PetitPotam: Affects Windows New Technology Local Area Network (LAN) Manager (NTLM). It is a theft technique that allows a LAN-based attacker to initiate an authentication request.
-- Security logging and monitoring failures: Insufficient logging and monitoring capabilities that result in attackers exploiting vulnerabilities without the organization knowing it
-- Server-side request forgery: Allows attackers to manipulate a server-side application into accessing and updating backend resources. It can also allow threat actors to steal data.
+## Notable Vulnerabilities
+- **ProxyLogon**: Affects Microsoft Exchange server. Allows a threat actor to deploy malicious code from a remote location after completing a user authentication process.
+- **ZeroLogon**: Affects Microsoft’s Netlogon authentication protocol. Allows unauthorized access by exploiting a flaw in the authentication process.
+- **Log4Shell**: Allows attackers to run Java code or leak sensitive information on a remote device. It enables remote attackers to take control of internet-connected devices and run malicious code.
+- **PetitPotam**: Affects Windows NTLM. Allows a LAN-based attacker to initiate an authentication request and steal credentials.
+- **Security Logging and Monitoring Failures**: Insufficient logging and monitoring capabilities, allowing attackers to exploit vulnerabilities without detection.
+- **Server-Side Request Forgery (SSRF)**: Allows attackers to manipulate a server-side application to access and update backend resources, potentially stealing data.
 
 
 
