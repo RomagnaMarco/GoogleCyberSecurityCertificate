@@ -75,14 +75,23 @@ Security cannot be an afterthought during development. There must be Quality Ass
 
 # Threats, Risks, and Vulnerabilities
 
-Threat: any circumstance or event that can negatively impact assets.
-Risk: anything that can impact the confidentiality, integrity, or availability of an asset. Likelyhood of threat occuring.
-Vulnerability: a weakness that can be exploited by a threat.
+## Definitions
 
-Low vs Medium vs High Risk Asset classification is common.
-Low: info that wouldn't harm the reputation or ongoing operations. It also wouldn't cause financial damage if compromimsed.
-Medium: info not available to public, could cause harm to reputation, ongoing operations, or financial damage.
-High: info protected by regulations/laws, would cause severe negative impact on finances, ongoing operations or reputation.
+- **Threat**: Any circumstance or event that can negatively impact assets.
+- **Risk**: Anything that can impact the confidentiality, integrity, or availability of an asset; the likelihood of a threat occurring.
+- **Vulnerability**: A weakness that can be exploited by a threat.
+
+## Risk Classification
+
+### Low Risk
+- **Description**: Information that wouldn't harm the reputation or ongoing operations and wouldn't cause financial damage if compromised.
+
+### Medium Risk
+- **Description**: Information not available to the public that could cause harm to reputation, ongoing operations, or financial damage.
+
+### High Risk
+- **Description**: Information protected by regulations/laws that would cause severe negative impact on finances, ongoing operations, or reputation if compromised.
+
 
 
 
