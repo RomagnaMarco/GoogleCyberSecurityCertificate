@@ -142,25 +142,65 @@ Security cannot be an afterthought during development. There must be Quality Ass
 
 # NIST's Risk Management Framework
 
-Risk Management Framework (RMF) 7 Steps:
-1. Prepare
-   - Manage security and privacy risks before breach occurs
-2. Categorize
-   - Develop risk  management processes and tasks
-3. Select
-   - Choose, customize, and capture documentation of the controls that protect an organization
-4. Implement
-   - Implement security and privacy plans
-5. Assess
-   - Determine of established controls are implemented correctly
-   - ID potential weaknesses, decide if change is necessary
-6. Authorize
-   - Being accountable for security/privacy risks that may exist
-7. Monitor
-   - Be aware of how systems are operating.
+## Risk Management Framework (RMF) 7 Steps:
+
+### 1. Prepare
+- **Objective**: Manage security and privacy risks before a breach occurs.
+
+### 2. Categorize
+- **Objective**: Develop risk management processes and tasks.
+
+### 3. Select
+- **Objective**: Choose, customize, and capture documentation of the controls that protect an organization.
+
+### 4. Implement
+- **Objective**: Implement security and privacy plans.
+
+### 5. Assess
+- **Objective**: Determine if established controls are implemented correctly.
+- **Activities**: Identify potential weaknesses and decide if changes are necessary.
+
+### 6. Authorize
+- **Objective**: Be accountable for security and privacy risks that may exist.
+
+### 7. Monitor
+- **Objective**: Be aware of how systems are operating.
 
 
+# Manage common threats, risks, and vulnerabilties
 
+Common Risk Management Strategies:
+- Acceptance: accepting a risk to avoid disrupting business continuity
+- Avoidance: creating a plan to avoid the risk altogether
+- Transferance: transferring risk to a third party to manage
+- Mitigation: Lessening the impact of a known risk
+
+Some things that can affect the likelyhood of risk:
+- External risk
+- Internal risk
+- Legacy systems
+- multiparty risk
+- software compliance/licensing
+
+OWASP 10 common attack types
+1. Injection
+2. Broken Authentication
+3. Sensitive data exposure
+4. XML External Entities (XXE)
+5. Broken Access Control
+6. Security Misconfiguration
+7. Cross-Site-Scripting (XSS)
+8. Insecure Deserialization
+9. Using components with known Vulnerabilities
+10. Insufficient Logging & Monitoring
+
+Vulnerabilities:
+- ProxyLogon: A pre-authenticated vulnerability that affects the Microsoft Exchange server. This means a threat actor can complete a user authentication process to deploy malicious code from a remote location.
+- ZeroLogon: A vulnerability in Microsoft’s Netlogon authentication protocol. An authentication protocol is a way to verify a person's identity. Netlogon is a service that ensures a user’s identity before allowing access to a website's location.
+- Log4Shell: Allows attackers to run Java code on someone else’s computer or leak sensitive information. It does this by enabling a remote attacker to take control of devices connected to the internet and run malicious code.
+- PetitPotam: Affects Windows New Technology Local Area Network (LAN) Manager (NTLM). It is a theft technique that allows a LAN-based attacker to initiate an authentication request.
+- Security logging and monitoring failures: Insufficient logging and monitoring capabilities that result in attackers exploiting vulnerabilities without the organization knowing it
+- Server-side request forgery: Allows attackers to manipulate a server-side application into accessing and updating backend resources. It can also allow threat actors to steal data.
 
 
 
