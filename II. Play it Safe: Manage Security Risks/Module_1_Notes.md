@@ -94,8 +94,6 @@ Security cannot be an afterthought during development. There must be Quality Ass
 
 # Key impacts of threats, risks, and vulnerabilities
 
-# Threats, Risks, and Vulnerabilities
-
 ## Definitions
 
 - **Threat**: Any circumstance or event that can negatively impact assets.
