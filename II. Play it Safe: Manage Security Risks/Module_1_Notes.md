@@ -73,6 +73,19 @@ This involves what happens in the event of a potential breach and how to resolve
 
 Security cannot be an afterthought during development. There must be Quality Assurance (QA) and penetration tester professionals to ensure the software has met security standards.
 
+# Threats, Risks, and Vulnerabilities
+
+Threat: any circumstance or event that can negatively impact assets.
+Risk: anything that can impact the confidentiality, integrity, or availability of an asset. Likelyhood of threat occuring.
+Vulnerability: a weakness that can be exploited by a threat.
+
+Low vs Medium vs High Risk Asset classification is common.
+Low: info that wouldn't harm the reputation or ongoing operations. It also wouldn't cause financial damage if compromimsed.
+Medium: info not available to public, could cause harm to reputation, ongoing operations, or financial damage.
+High: info protected by regulations/laws, would cause severe negative impact on finances, ongoing operations or reputation.
+
+
+
 
 
   
