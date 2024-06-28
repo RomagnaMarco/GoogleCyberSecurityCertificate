@@ -140,7 +140,27 @@ Security cannot be an afterthought during development. There must be Quality Ass
   - Negative press coverage.
   - Legal penalties in addition to fines.
 
- 
+# NIST's Risk Management Framework
+
+Risk Management Framework (RMF) 7 Steps:
+1. Prepare
+   - Manage security and privacy risks before breach occurs
+2. Categorize
+   - Develop risk  management processes and tasks
+3. Select
+   - Choose, customize, and capture documentation of the controls that protect an organization
+4. Implement
+   - Implement security and privacy plans
+5. Assess
+   - Determine of established controls are implemented correctly
+   - ID potential weaknesses, decide if change is necessary
+6. Authorize
+   - Being accountable for security/privacy risks that may exist
+7. Monitor
+   - Be aware of how systems are operating.
+
+
+
 
 
 
