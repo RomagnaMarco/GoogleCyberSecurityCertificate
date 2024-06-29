@@ -57,6 +57,17 @@ The CIA Triad is a model for how organizations consider risk when setting up sys
 
 Maintaining an acceptable level of risk and ensuring systems and policies are designed with these elements in mind helps establish a successful security posture.
 
+# NIST frameworks
+
+NIST Cybersecurity Framework (CSF): voluntary framework that consists of standards, guidelines, and best practices to manage cybersecurity risk
+CSF 5 Core functions:
+1. Indentify
+2. Protect
+3. Detect
+4. Respond
+5. Recover
+
+
 
 
 
