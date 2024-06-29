@@ -72,6 +72,23 @@ The NIST Cybersecurity Framework (CSF) is a voluntary framework that consists of
 ## NIST Special Publication 800-53 (NIST S.P. 800-53)
 NIST S.P. 800-53 is a unified framework for protecting the security of information systems within the federal government.
 
+# OWASP Security Principles
+
+- Minimize attack surface area (all potential vulnerabilities exploitable)
+  - disable software features
+  - retrict access of certain assets
+  - more complex passwords
+- Principle of least privilege (least amount of access required to fulfill daily tasks)
+  - reduces damage a breach could casuse
+- Defense in depth
+  - multiple controls addressing risks and threats in different ways. (MFA. firewall, etc)
+- Seperation of duties (no one person is given too many priveleges)
+  - different people to sign and prepare a paycheck.
+- keep security simple
+  - remove complex solutions to keep things manageable to keep collaboration possible
+- Fix security issues correctly
+  - find root cause and correct all vulnerabilities with tests.
+
 
 
 
