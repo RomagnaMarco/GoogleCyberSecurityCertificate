@@ -19,29 +19,30 @@
 
 # The Relationship Between Frameworks and Controls
 
-Specific Examples:
+## Specific Examples
 
-Cyber Threat Framework (CTF)
-- provides a common language to communicate information about threat activity.
-- helps cybersecurity professionals analyze and share information more efficiently
+### Cyber Threat Framework (CTF)
+- Provides a common language to communicate information about threat activity.
+- Helps cybersecurity professionals analyze and share information more efficiently.
 
-International Organization for Standardization/International Electrotechnical Commission (ISO/IEC) 27001
-- enables organizations of all sectors and sizes to manage the security of assets, such as financial information, intellectual property, employee data, and information entrusted to third parties.
-- outlines requirements for an information security management system, best practices, and controls that support an organization’s ability to manage risks.
+### International Organization for Standardization/International Electrotechnical Commission (ISO/IEC) 27001
+- Enables organizations of all sectors and sizes to manage the security of assets, such as financial information, intellectual property, employee data, and information entrusted to third parties.
+- Outlines requirements for an information security management system, best practices, and controls that support an organization’s ability to manage risks.
 
-Physical Controls:
-- Gates, Fences, locks
-- security guards
+## Types of Controls
+
+### Physical Controls
+- Gates, fences, locks
+- Security guards
 - CCTVs, cameras, motion detectors
-- access cards/badges
-Technical Controls:
+- Access cards/badges
+
+### Technical Controls
 - Firewalls
-- MFA
-- antivirus software
-Admin Controls:
-- speration of duties
-- authorization
-- asset clalssification
+- Multi-Factor Authentication (MFA)
+- Antivirus software
 
-
-
+### Administrative Controls
+- Separation of duties
+- Authorization
+- Asset classification
