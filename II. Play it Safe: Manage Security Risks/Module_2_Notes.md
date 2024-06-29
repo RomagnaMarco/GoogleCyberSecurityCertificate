@@ -69,8 +69,8 @@ The NIST Cybersecurity Framework (CSF) is a voluntary framework that consists of
 4. **Respond**: Making sure proper procedures are used to contain, neutralize, and analyze security incidents and implement improvements to the security process
 5. **Recover**: The process of returning affected systems back to normal operation
 
-NIST S.P. 800-53: a unified framework for protecting the security of information systems within the federal government.
-
+## NIST Special Publication 800-53 (NIST S.P. 800-53)
+NIST S.P. 800-53 is a unified framework for protecting the security of information systems within the federal government.
 
 
 
