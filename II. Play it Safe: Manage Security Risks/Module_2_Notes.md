@@ -74,25 +74,41 @@ NIST S.P. 800-53 is a unified framework for protecting the security of informati
 
 # OWASP Security Principles
 
-- Minimize attack surface area (all potential vulnerabilities exploitable)
-  - disable software features
-  - retrict access of certain assets
-  - more complex passwords
-- Principle of least privilege (least amount of access required to fulfill daily tasks)
-  - reduces damage a breach could casuse
-- Defense in depth
-  - multiple controls addressing risks and threats in different ways. (MFA. firewall, etc)
-- Seperation of duties (no one person is given too many priveleges)
-  - different people to sign and prepare a paycheck.
-- keep security simple
-  - remove complex solutions to keep things manageable to keep collaboration possible
-- Fix security issues correctly
-  - find root cause and correct all vulnerabilities with tests.
+## Key Principles
 
+### 1. Minimize Attack Surface Area
+- **Definition**: Reduce all potential vulnerabilities exploitable by attackers.
+- **Strategies**:
+  - Disable unnecessary software features.
+  - Restrict access to certain assets.
+  - Implement more complex passwords.
 
+### 2. Principle of Least Privilege
+- **Definition**: Grant the least amount of access required to fulfill daily tasks.
+- **Benefit**: Reduces the damage a breach could cause.
 
+### 3. Defense in Depth
+- **Definition**: Implement multiple controls addressing risks and threats in different ways.
+- **Examples**: Multi-Factor Authentication (MFA), firewalls.
 
+### 4. Separation of Duties
+- **Definition**: Ensure no one person is given too many privileges.
+- **Example**: Different people to sign and prepare a paycheck.
 
+### 5. Keep Security Simple
+- **Definition**: Remove complex solutions to keep security manageable and collaboration possible.
 
+### 6. Fix Security Issues Correctly
+- **Definition**: Find the root cause and correct all vulnerabilities with tests.
 
+### 7. Establish Secure Defaults
+- **Definition**: The optimal security state of an application is its default state for users.
 
+### 8. Fail Securely
+- **Definition**: When a control fails or stops, it should default to its most secure option.
+
+### 9. Don't Trust Services
+- **Definition**: Third-party services have different security policies that may be insecure.
+
+### 10. Avoid Security by Obscurity
+- **Definition**: Key systems should not rely on keeping details hidden, but instead should rely on multiple factors for security.
