@@ -63,11 +63,13 @@ Maintaining an acceptable level of risk and ensuring systems and policies are de
 The NIST Cybersecurity Framework (CSF) is a voluntary framework that consists of standards, guidelines, and best practices to manage cybersecurity risk.
 
 ### CSF 5 Core Functions:
-1. **Identify**
-2. **Protect**
-3. **Detect**
-4. **Respond**
-5. **Recover**
+1. **Identify**: The management of cybersecurity risk and its effect on an organization's people and assets
+2. **Protect**: Strategy implementing policies, procedures, training, and tools for mitigating cybersecurity threats
+3. **Detect**: Identifying potential incidents, improving monitoring capabilities to increase speed and efficiency of detections
+4. **Respond**: Making sure proper procedures are used to contain, neutralize, and analyze security incidents and implement improvements to the security process
+5. **Recover**: The process of returning affected systems back to normal operation
+
+NIST S.P. 800-53: a unified framework for protecting the security of information systems within the federal government.
 
 
 
