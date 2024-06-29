@@ -46,3 +46,20 @@
 - Separation of duties
 - Authorization
 - Asset classification
+
+# Explore the CIA Triad // Using the CIA Triad to Protect Organizations
+
+## CIA Triad
+The CIA Triad is a model for how organizations consider risk when setting up systems and security policies. It consists of three core components:
+- **Confidentiality**: Ensures information is accessible only to those authorized to have access.
+- **Integrity**: Ensures information is authentic, accurate, and reliable.
+- **Availability**: Ensures information and resources are accessible to authorized users when needed.
+
+Maintaining an acceptable level of risk and ensuring systems and policies are designed with these elements in mind helps establish a successful security posture.
+
+
+
+
+
+
+
