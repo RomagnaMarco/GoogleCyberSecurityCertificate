@@ -1,13 +1,12 @@
 # Frameworks
 
 ## Security Frameworks
-- **Definition**: Guidelines used for building plans to help mitigate risks and threats to data and privacy.
-- **Key Point**: People are the biggest threat to security. Education and employee training are essential.
+- **Definition**: Guidelines used for building plans to help mitigate risks and threats to data and privacy. These support organizations' ability to adhere to compliance laws and regulations.
 
 # Controls
 
 ## Security Controls
-- **Definition**: Safeguards designed to reduce specific security risks.
+- **Definition**: Safeguards designed to reduce specific security risks. These are measures organizations use to lower risk and threats to data and privacy.
 
 ### Common Types of Security Controls
 1. **Encryption**: The process of converting data from a readable format to an encoded format.
@@ -18,7 +17,6 @@
 ### Example Attack
 - **Vishing**: Aims to exploit voices by impersonating a known source.
 
-
-# The Relationship between Frameworks and Controls
+# The Relationship Between Frameworks and Controls
 
 
