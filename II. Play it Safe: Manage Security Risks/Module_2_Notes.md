@@ -160,6 +160,23 @@ When communicating with stakeholders, it is important to:
 - Identify compliance regulations.
 - Provide recommendations.
 
+# More about security Audits
+
+Factors that affect audits
+- Industry type
+- Organizatiton size
+- Ties to the applicable government regulations
+- Geographical location
+- A business decision  to adher to specific regulatory compliance
+
+Frameworks can help organizations save time conducting audits.
+
+Audit Checklist
+- Identify the scope
+- Complete a risk assessment
+- conduct the audit
+- create a mitigation plan
+- communicate results to stakeholders
 
 
 
