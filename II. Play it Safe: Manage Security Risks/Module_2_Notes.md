@@ -139,3 +139,26 @@ A security audit is a review of an organization's security controls, policies, a
 - **Definition**: Identifying potential threats, risks, and vulnerabilities.
 - **Purpose**: Helps consider what security measures should be implemented and monitored to keep assets safe.
 
+# Complete a Security Audit
+
+Audit questions:
+- What is the audit mean't to achieve
+- Which assets are most at risk
+- Are current controls sufficient to protect those assets
+- What controls and compliance regulations need to be implemented
+
+Control categories
+- Administrative: Human component, involve policies and procedures.
+- Technical: hardware and software systems
+- Physical: measures put in place to prevent physical access
+
+Stakeholder communication
+- summarize scope and goals
+- Lists existing risks
+- notes how quickly thtose risks need to be addressed
+- identifies compliance regulations
+- provides recommendations
+
+
+
+
