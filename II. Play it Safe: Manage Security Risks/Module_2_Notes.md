@@ -112,3 +112,35 @@ NIST S.P. 800-53 is a unified framework for protecting the security of informati
 
 ### 10. Avoid Security by Obscurity
 - **Definition**: Key systems should not rely on keeping details hidden, but instead should rely on multiple factors for security.
+
+# Plan a Security Audit
+
+Security Audit: a review of an organization's security controls, policies, and proceduers against a set of expectations.
+While there are external anad internal audits, we will focus on internal, which is more relevant to entry level positions.
+
+Internal audit: 
+- typically conducted by a team
+- might include compliance officer, security manager, and other security team members
+- helps security teams:
+  -  identify organizational risk
+  -  assess controls
+  -  correct compliance issues.
+- Common elements of internal audits
+  - Establishing the scope and goals
+  - Conducting a risk assessment
+  - Completing a controls assessment
+  - Assessing compliance
+  - Communicating results
+ 
+Scope: the specific criteria of an internal security audit.
+Goals: outline of the organization's security objectives
+
+Entry level would likely be required to Understand the scope and goals in order to complete elements of the audit. Higher ups would establish the scope and goals.
+
+Risk Assessment: identifying potential threats, risks, and vulnerabilities.
+- helps consider what security measures should be implemented and monitored to keep assets safe.
+- 
+
+
+
+
