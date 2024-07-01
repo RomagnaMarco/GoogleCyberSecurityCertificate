@@ -115,32 +115,27 @@ NIST S.P. 800-53 is a unified framework for protecting the security of informati
 
 # Plan a Security Audit
 
-Security Audit: a review of an organization's security controls, policies, and proceduers against a set of expectations.
-While there are external anad internal audits, we will focus on internal, which is more relevant to entry level positions.
+## Security Audit
+A security audit is a review of an organization's security controls, policies, and procedures against a set of expectations. While there are external and internal audits, we will focus on internal audits, which are more relevant to entry-level positions.
 
-Internal audit: 
-- typically conducted by a team
-- might include compliance officer, security manager, and other security team members
-- helps security teams:
-  -  identify organizational risk
-  -  assess controls
-  -  correct compliance issues.
-- Common elements of internal audits
-  - Establishing the scope and goals
-  - Conducting a risk assessment
-  - Completing a controls assessment
-  - Assessing compliance
-  - Communicating results
- 
-Scope: the specific criteria of an internal security audit.
-Goals: outline of the organization's security objectives
+### Internal Audit
+- **Definition**: Typically conducted by a team, including a compliance officer, security manager, and other security team members.
+- **Purpose**: Helps security teams identify organizational risks, assess controls, and correct compliance issues.
 
-Entry level would likely be required to Understand the scope and goals in order to complete elements of the audit. Higher ups would establish the scope and goals.
+### Common Elements of Internal Audits
+1. **Establishing the Scope and Goals**
+2. **Conducting a Risk Assessment**
+3. **Completing a Controls Assessment**
+4. **Assessing Compliance**
+5. **Communicating Results**
 
-Risk Assessment: identifying potential threats, risks, and vulnerabilities.
-- helps consider what security measures should be implemented and monitored to keep assets safe.
-- 
+### Scope and Goals
+- **Scope**: The specific criteria of an internal security audit.
+- **Goals**: Outline the organization's security objectives.
 
+**Entry-level roles** would likely be required to understand the scope and goals in order to complete elements of the audit, while higher-ups would establish the scope and goals.
 
-
+### Risk Assessment
+- **Definition**: Identifying potential threats, risks, and vulnerabilities.
+- **Purpose**: Helps consider what security measures should be implemented and monitored to keep assets safe.
 
