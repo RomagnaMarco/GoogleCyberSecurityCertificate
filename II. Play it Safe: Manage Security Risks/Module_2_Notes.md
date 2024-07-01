@@ -141,23 +141,24 @@ A security audit is a review of an organization's security controls, policies, a
 
 # Complete a Security Audit
 
-Audit questions:
-- What is the audit mean't to achieve
-- Which assets are most at risk
-- Are current controls sufficient to protect those assets
-- What controls and compliance regulations need to be implemented
+## Audit Questions
+1. What is the audit meant to achieve?
+2. Which assets are most at risk?
+3. Are current controls sufficient to protect those assets?
+4. What controls and compliance regulations need to be implemented?
 
-Control categories
-- Administrative: Human component, involve policies and procedures.
-- Technical: hardware and software systems
-- Physical: measures put in place to prevent physical access
+## Control Categories
+1. **Administrative**: Human component, involving policies and procedures.
+2. **Technical**: Hardware and software systems.
+3. **Physical**: Measures put in place to prevent physical access.
 
-Stakeholder communication
-- summarize scope and goals
-- Lists existing risks
-- notes how quickly thtose risks need to be addressed
-- identifies compliance regulations
-- provides recommendations
+## Stakeholder Communication
+When communicating with stakeholders, it is important to:
+- Summarize the scope and goals.
+- List existing risks.
+- Note how quickly those risks need to be addressed.
+- Identify compliance regulations.
+- Provide recommendations.
 
 
 
