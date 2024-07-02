@@ -80,7 +80,7 @@ Supporting Materials:
 - [ ] Intrusion detection system (IDS)
 - [ ] Backups
 - [x] Antivirus software 
-- [?] Manual monitoring, maintenance, and intervention for legacy systems
+- [ ] Manual monitoring, maintenance, and intervention for legacy systems
 - [ ] Encryption
 - [ ] Password management system
 - [x] Locks (offices, storefront, warehouse)
