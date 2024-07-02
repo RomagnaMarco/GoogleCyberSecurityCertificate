@@ -84,7 +84,7 @@ Supporting Materials:
 - [ ] Intrusion detection system (IDS)
 - [ ] Backups
 - [x] Antivirus software 
-- [ ] Manual monitoring, maintenance, and intervention for legacy systems
+- [x] Manual monitoring, maintenance, and intervention for legacy systems
 - [ ] Encryption
 - [ ] Password management system
 - [x] Locks (offices, storefront, warehouse)
@@ -92,7 +92,7 @@ Supporting Materials:
 - [x] Fire detection/prevention (fire alarm, sprinkler system, etc.)
 
 ### Compliance checklist
-- [x] Only authorized users have access to customers’ credit card information.
+- [ ] Only authorized users have access to customers’ credit card information.
 - [ ] Credit card information is stored, accepted, processed, and transmitted internally, in a secure environment.
 - [ ] Implement data encryption procedures to better secure credit card transaction touchpoints and data. 
 - [ ] Adopt secure password management policies.
@@ -107,4 +107,4 @@ Supporting Materials:
 - [ ] User access policies are established.
 - [ ] Sensitive data (PII/SPII) is confidential/private.
 - [x] Data integrity ensures the data is consistent, complete, accurate, and has been validated.
-- [x] Data is available to individuals authorized to access it.
+- [ ] Data is available to individuals authorized to access it.
