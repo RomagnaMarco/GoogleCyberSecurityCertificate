@@ -89,65 +89,66 @@ Currently, SIEM tools require human interaction for the analysis of events.
 - **Linux:** Widely used OS. Allows tailoring the operating system to your needs using a command-line interface.
 - **Suricata:** Open source network analysis and threat detection software. Developed by the Open Information Security Foundation (OISF).
 
-# Use SIEM tools to protoect organizations
+# Use SIEM Tools to Protect Organizations
 
-Chronicle helps you collect and analyze log data according to:
-- a specific asset
-- a domain name
-- a user
-- AN IP Address
+## Chronicle
 
+### Collect and Analyze Log Data According To:
+- A specific asset
+- A domain name
+- A user
+- An IP Address
 
-Splunks Dashboards:
-Security Posture Dashboard
-- designed for security operation centers (SOCs)
-- Display last 24 hours of notable security related events and trends
-- determines if security infrastructure and policies are performing as designed.
-- can help monitor and investigate threats in real time.
+## Splunk Dashboards
 
-Executive summary Dashboard
-- analyzes and monitors the overall health of the organization over time.
-- helps  security teams improve seecurity measuers that reduce risk
-- can provide high-level stakeholders insights. (trends of security incidents over a period of time)
+### Security Posture Dashboard
+- Designed for security operation centers (SOCs).
+- Displays the last 24 hours of notable security-related events and trends.
+- Determines if security infrastructure and policies are performing as designed.
+- Helps monitor and investigate threats in real time.
 
-Incident Review Dashboard
-- identify suspicious patterns that can occur in the event of an incident.
-- highlights higher risk items that need immediate review
-- provides a visual timeline of events leading up to an incident.
+### Executive Summary Dashboard
+- Analyzes and monitors the overall health of the organization over time.
+- Helps security teams improve measures that reduce risk.
+- Provides high-level stakeholders insights into trends of security incidents over a period of time.
 
-Risk Analysis dashboard
-- identifies the risk for each risk objecct )users, computers, IP addresses)
-- shows changes in risk-related activity or behavoir
-- used to analyze the potential impact of vulnerabilities in ciritcal assets, helping analysts prioritize their risk mitigation efforts
+### Incident Review Dashboard
+- Identifies suspicious patterns that can occur in the event of an incident.
+- Highlights higher risk items that need immediate review.
+- Provides a visual timeline of events leading up to an incident.
 
-Chronicles Dashboards:
+### Risk Analysis Dashboard
+- Identifies the risk for each risk object (users, computers, IP addresses).
+- Shows changes in risk-related activity or behavior.
+- Analyzes the potential impact of vulnerabilities in critical assets, helping analysts prioritize their risk mitigation efforts.
 
-Enterprise insights dashboard
-- highlights recent alerts
-- identifies suspicious domain names in logs, aka indicators of compromise (IOCs).
-- results are each labaled with confidence score to indicate likelihood of a threat
-- provides a security level that indications the significance of each threat to the organization
-- can be used to monitor login or data access attempts to critical assets
-  
-Data ingestion and health dashboard
-- shows the number of event logs, log sources, and success rates of data being processed into chronicle
-- used to ensure that log sources are correctly configued and logs are recieved without error
+## Chronicle Dashboards
 
-IOC matches dashboard
-- indicates the top threats, risks, and vulnerabilities to the organization
-- used to observe domain names, IP addresses, and device IOCs over time in order to identify trends
+### Enterprise Insights Dashboard
+- Highlights recent alerts.
+- Identifies suspicious domain names in logs, known as indicators of compromise (IOCs).
+- Labels results with a confidence score to indicate the likelihood of a threat.
+- Provides a security level indicating the significance of each threat to the organization.
+- Monitors login or data access attempts to critical assets.
 
-Main dashboard
-- displays a high-level summary of information related to the organization’s data ingestion, alerting, and event activity over time
-- used to access a timeline of security events to identify threat trends across log sources, devices, IP addresses, and physical locations.
+### Data Ingestion and Health Dashboard
+- Shows the number of event logs, log sources, and success rates of data being processed into Chronicle.
+- Ensures that log sources are correctly configured and logs are received without error.
 
-Rule detections dashboard
-- provides statistics related to incidents with the highest occurrences, severities, and detections over time
-- used to access a list of all the alerts triggered by a specific detection rule
-- statistics used to help manage recurring incidents and establish mitigation tactics to reduce an organization's level of risk.
+### IOC Matches Dashboard
+- Indicates the top threats, risks, and vulnerabilities to the organization.
+- Observes domain names, IP addresses, and device IOCs over time to identify trends.
 
-User sign in overview dashboard
-- provides information about user access behavior across the organization
-- use this dashboard to access a list of all user sign-in events to identify unusual user activity, such as a user signing in from multiple locations at the same time
-- information is used to help mitigate threats, risks, and vulnerabilities to user accounts and the organization’s applications.
+### Main Dashboard
+- Displays a high-level summary of information related to the organization’s data ingestion, alerting, and event activity over time.
+- Accesses a timeline of security events to identify threat trends across log sources, devices, IP addresses, and physical locations.
 
+### Rule Detections Dashboard
+- Provides statistics related to incidents with the highest occurrences, severities, and detections over time.
+- Accesses a list of all the alerts triggered by a specific detection rule.
+- Uses statistics to manage recurring incidents and establish mitigation tactics to reduce an organization's level of risk.
+
+### User Sign-In Overview Dashboard
+- Provides information about user access behavior across the organization.
+- Accesses a list of all user sign-in events to identify unusual user activity, such as a user signing in from multiple locations at the same time.
+- Uses information to mitigate threats, risks, and vulnerabilities to user accounts and the organization’s applications.
