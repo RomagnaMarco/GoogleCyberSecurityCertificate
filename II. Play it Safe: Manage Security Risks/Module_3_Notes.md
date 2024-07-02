@@ -9,6 +9,8 @@
 
 **SIEM Tools:** Used to analyze log data to monitor critical activities.
 
+SIEM tools must be configured and customized to meet each organization's unique security needs.
+
  # SIEM Dashboards
 
 **SIEM tools** can be used to create dashboards. These dashboards help security analysts quickly access their security information as charts, graphs, or tables. 
