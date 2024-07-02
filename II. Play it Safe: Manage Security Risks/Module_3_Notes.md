@@ -8,3 +8,10 @@
 - **Server logs:** A record of events related to services such as websites, emails, or file shares. It includes actions such as login, password, and username requests.
 
 **SIEM Tools:** Used to analyze log data to monitor critical activities.
+
+# SIEM dashboards
+
+SIEM tools can be used to create dashboards. SIEM dashboards help security analysts quickly acess their security information as charts, graphs, or tables. 
+These dashboards can analysts see outliers and unusual behavoir easier.
+Metrics: key technical attributes, such as response time, availability, and failure rate are used to aossess the performance  of a software application.
+
