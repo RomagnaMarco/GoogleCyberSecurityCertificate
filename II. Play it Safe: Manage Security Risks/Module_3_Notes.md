@@ -17,19 +17,20 @@ Dashboards enable analysts to identify outliers and unusual behavior more easily
 
 **Metrics:** Key technical attributes, such as response time, availability, and failure rate, are used to assess the performance of a software application.
 
-# The future of SIEM tools
+# The Future of SIEM Tools
 
-Currently, SIEM tools require human interaction for analysis of events
+Currently, SIEM tools require human interaction for the analysis of events.
 
-The need for cloud funcctionality has increased:
-- SIEM tools  continue to evolve to function in cloud-hosted and cloud-native environments
-- Cloud hosted tools are simply accessed through the internet and help organizations that don't want tto invest in cerating and maintaing their own infrastructure.
-- Cloud native tools are also accessed through the internet, but designed to take advantage of cloud computing capabiltities ( availability, flexibility, scalability)
-  
-  Internet of things (IoT): The current development of interconnected devices with access to the internet
-  - more devices mean larger attack surface and amount of exploitable data
+## Increasing Need for Cloud Functionality:
+- **Cloud-hosted tools:** Accessed through the internet, helping organizations avoid the investment in creating and maintaining their own infrastructure.
+- **Cloud-native tools:** Also accessed through the internet, but designed to leverage cloud computing capabilities (availability, flexibility, scalability).
 
-AI anad ML progressing mean SIEM capabilities will be enhanced.
+## Internet of Things (IoT):
+- The development of interconnected devices with internet access.
+- More devices mean a larger attack surface and more exploitable data.
 
-Security orchestration, automation, and response (SOAR): a collection of applications, tools, and workflows that use automation to respond to security events.
+## Advancements in AI and ML:
+- Progress in AI and machine learning will enhance SIEM capabilities.
 
+## Security Orchestration, Automation, and Response (SOAR):
+- A collection of applications, tools, and workflows that use automation to respond to security events.
