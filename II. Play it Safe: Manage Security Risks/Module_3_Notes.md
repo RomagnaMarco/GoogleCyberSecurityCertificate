@@ -34,3 +34,6 @@ Currently, SIEM tools require human interaction for the analysis of events.
 
 ## Security Orchestration, Automation, and Response (SOAR):
 - A collection of applications, tools, and workflows that use automation to respond to security events.
+
+
+
