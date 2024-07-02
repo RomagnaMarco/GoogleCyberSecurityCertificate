@@ -108,3 +108,11 @@ Supporting Materials:
 - [ ] Sensitive data (PII/SPII) is confidential/private.
 - [x] Data integrity ensures the data is consistent, complete, accurate, and has been validated.
 - [ ] Data is available to individuals authorized to access it.
+
+
+# Recommendations
+
+
+I would start by first changing which employees have access to which data. Please make sure it is clear which roles have access to which permissions; this makes it clear where breaches happen. We should also implement better access security. Please improve the policies for passwords, and implement a password management system. Passwords can also be further strengthened by multi-factor authentication as an example.
+Data is very important to keep safe, just as much as any physical assets. You should start managing backups, and have disaster recovery plans put in place. You also need to make sure the data is encrypted and if SPII or PII is being processed through 3rd party apps, to not trust the security to those 3rd party apps. You can also put some measures in place to make it so employees must go through administrative controls to access SPII or PII, and let customers access that information through Multifactor authentication or some other security measure depnending on how important the data is. 
+Also, while there are locks in the physical location, customers are able to enter nearby, please make sure the employees are aware of proper security training and don't pick up mysterious usbs, leave doors open/unlocked, or other common unsafe behavoir.
