@@ -67,4 +67,22 @@ Currently, SIEM tools require human interaction for the analysis of events.
 - Cloud-native tool.
 - Used to retain, analyze, and search data.
 
+# More about cybersecurity tools
 
+Open Source
+Objective: provide users with software that is built by the public in a collaborative way, leading to more secure software
+Benefits: allow for more customization by users, resulting in a variety of services built from the same open-source software package.
+
+Proprietary tools
+- users pay a fee for  usage and training
+- only the owner can modify/access the source code
+- users need to wait for updates, and might  need to pay for them
+- allows users to modify a limited number of features to meet organizational or individual needs.
+
+Common misconception:
+- open source tools are not necssarily less effective or safe than proprietary tools.
+- Being widely exposed makes it more clear to a large  amount of well-intentioned and informed users/proffesionals makes it easier to spot issues and fix them.
+
+Examples of Open Source tools:
+- Linux: widly used OS. It allows you to tailor the operating system to your needs using a command-line interface.
+- Suricata: open source network analysis and threat detection software. Developed by the Open Information Security Foundation (OISF).
