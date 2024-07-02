@@ -70,6 +70,7 @@ Supporting Materials:
 - Physical location has sufficient locks, up-to-date CCTV, and functioning fire detection and prevention systems.
 
 **Scope:** I have reviewed all the assets, controls, and compliance practices they have.
+
 **Goals:** I beleive the goals have been analyzed. I have found which controls and best practices still need to be implemented.
 
 # Checklists 
