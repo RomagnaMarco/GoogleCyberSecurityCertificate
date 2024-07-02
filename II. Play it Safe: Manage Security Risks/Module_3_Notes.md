@@ -37,5 +37,32 @@ Currently, SIEM tools require human interaction for the analysis of events.
 ## Security Orchestration, Automation, and Response (SOAR):
 - A collection of applications, tools, and workflows that use automation to respond to security events.
 
+# Explore Common SIEM tools
+
+Different types of SIEM tools:
+Self-hosted:
+- require the organization to install, operate and maintain the tooll using their on physical infrastructure
+- managed and maintained by the organizations IT department, not a third part vendor.
+- ideal when required to maintain physical control over  confidential data.
+
+Cloud hosted:
+- maintained and managed by SIEM providers (accessible through internet)
+- ideal for not needing to create or maintaing their own infrastructure
+
+Hybrid:
+- leverage beneifts of physical control over confidential data, while being over the cloud
+
+Common SIEM tools:
+Splunk Enterprise
+- self hosted tool
+- used to retain, analyze, and search log data to provide security info and alerts in real time
+Splunk Cloud
+- cloud hosted
+- used to collect, search, and monitor log data.
+Chronicle
+- cloud  native tool
+- used to retain, analyze, and search data
+
+  
 
 
