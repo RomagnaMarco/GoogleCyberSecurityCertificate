@@ -34,13 +34,13 @@
 
 # More About Playbooks
 
-Playbooks are accompanied by a strategy. The strategy outlines expectations of team members who are assigned a task, and some playbooks also list the individuals responsible. The outlined expectations are accompanied by a plan. The plan dictates how the specific task outlined in the playbook must be completed.
+Playbooks are accompanied by a strategy. The strategy outlines the expectations of team members who are assigned a task, and some playbooks also list the individuals responsible. The outlined expectations are accompanied by a plan. The plan dictates how the specific task outlined in the playbook must be completed.
 
-Update a playbook if:
-- a failure is indentified
-- a change happens to industry standards
-- the cybersecurity landscape changes
+## When to Update a Playbook:
+- A failure is identified.
+- A change happens to industry standards.
+- The cybersecurity landscape changes.
 
-Types of Playbooks:
-- Incident response
-- vulnerability response
+## Types of Playbooks:
+- **Incident Response**
+- **Vulnerability Response**
