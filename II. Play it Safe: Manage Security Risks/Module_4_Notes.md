@@ -30,3 +30,17 @@
 
 ### Coordination
 - Report incidents and share information about the incident response process according to standards.
+
+
+# More About Playbooks
+
+Playbooks are accompanied by a strategy. The strategy outlines expectations of team members who are assigned a task, and some playbooks also list the individuals responsible. The outlined expectations are accompanied by a plan. The plan dictates how the specific task outlined in the playbook must be completed.
+
+Update a playbook if:
+- a failure is indentified
+- a change happens to industry standards
+- the cybersecurity landscape changes
+
+Types of Playbooks:
+- Incident response
+- vulnerability response
