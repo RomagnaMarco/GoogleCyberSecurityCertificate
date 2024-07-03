@@ -1,14 +1,32 @@
-#  Phases of an incident response playbook
+# Phases of an Incident Response Playbook
 
-Playbook: a manual providing details about any operational action
-- establish what tools should be used in response to a security incident
+**Playbook:** A manual providing details about any operational action.
+- Establishes what tools should be used in response to a security incident.
 
-Incident Response: quick attempt to indentify an attack, contain the damage, and correct the effects of a security breach.
-Incident Response Playbook Phases:
-- Preparation : document procedures, educate users
-- Detection and analysis: detect/analyze events using defined processes and tech. Find event's magnitude
-- Containment: prevent further damage, reduce immediate impact of security incident
-- Eradication and Recovery: complete removal of incidents artifacts. Return environment to normal operations.
-- Post incident activity: document incident, inform leadership, apply lessons learned.
-- Coordination: reporting incidents and sharing about the incident's response process according to standards.
+**Incident Response:** Quick attempt to identify an attack, contain the damage, and correct the effects of a security breach.
 
+## Incident Response Playbook Phases:
+
+### Preparation
+- Document procedures.
+- Educate users.
+
+### Detection and Analysis
+- Detect and analyze events using defined processes and technology.
+- Determine the event's magnitude.
+
+### Containment
+- Prevent further damage.
+- Reduce the immediate impact of the security incident.
+
+### Eradication and Recovery
+- Completely remove incident artifacts.
+- Return the environment to normal operations.
+
+### Post-Incident Activity
+- Document the incident.
+- Inform leadership.
+- Apply lessons learned.
+
+### Coordination
+- Report incidents and share information about the incident response process according to standards.
