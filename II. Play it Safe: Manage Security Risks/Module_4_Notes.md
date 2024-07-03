@@ -65,7 +65,7 @@ Organizations are likely to have different playbooks for different types of atta
    - Document the incident, response actions, and outcomes.
    - Report the incident to relevant authorities if necessary.
 
-## Playbooks Provide a Consistent Process
+### Playbooks Provide a Consistent Process
 
 - Playbooks ensure a consistent and organized response to incidents.
 - Remember, playbooks are living documents and should be updated regularly to reflect new threats, lessons learned, and changes in the cybersecurity landscape.
