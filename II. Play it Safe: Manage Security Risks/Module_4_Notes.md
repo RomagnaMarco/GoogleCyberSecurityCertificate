@@ -44,3 +44,17 @@ Playbooks are accompanied by a strategy. The strategy outlines the expectations 
 ## Types of Playbooks:
 - **Incident Response**
 - **Vulnerability Response**
+
+# Use a playbook to respond to threats, risks, or vulnerabilties
+
+Its likely an organization has different playbooks for different types of attacks.
+
+Example: Malware attack
+- Assess the alert from SIEM tool
+- Isolate/disconnect the infected system.
+- Restore impacted OS and Restore Backup before the incident
+- create a final report for stakeholders, report incident to authorities
+
+  Playbooks provide a consistent process, but remember, they are a living document.
+  
+ 
