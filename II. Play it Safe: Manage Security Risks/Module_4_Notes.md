@@ -45,16 +45,27 @@ Playbooks are accompanied by a strategy. The strategy outlines the expectations 
 - **Incident Response**
 - **Vulnerability Response**
 
-# Use a playbook to respond to threats, risks, or vulnerabilties
+# Use a Playbook to Respond to Threats, Risks, or Vulnerabilities
 
-Its likely an organization has different playbooks for different types of attacks.
+Organizations are likely to have different playbooks for different types of attacks.
 
-Example: Malware attack
-- Assess the alert from SIEM tool
-- Isolate/disconnect the infected system.
-- Restore impacted OS and Restore Backup before the incident
-- create a final report for stakeholders, report incident to authorities
+## Example: Malware Attack
 
-  Playbooks provide a consistent process, but remember, they are a living document.
-  
- 
+1. **Assess the Alert from SIEM Tool**
+   - Verify and validate the alert to determine if it is a true positive.
+
+2. **Isolate/Disconnect the Infected System**
+   - Immediately isolate the infected system from the network to prevent the spread of malware.
+
+3. **Restore Impacted OS and Restore Backup**
+   - Restore the operating system to a known good state.
+   - Restore data from backups created before the incident.
+
+4. **Create a Final Report for Stakeholders**
+   - Document the incident, response actions, and outcomes.
+   - Report the incident to relevant authorities if necessary.
+
+## Playbooks Provide a Consistent Process
+
+- Playbooks ensure a consistent and organized response to incidents.
+- Remember, playbooks are living documents and should be updated regularly to reflect new threats, lessons learned, and changes in the cybersecurity landscape.
