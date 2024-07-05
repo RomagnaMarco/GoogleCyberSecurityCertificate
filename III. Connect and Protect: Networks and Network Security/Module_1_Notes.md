@@ -31,27 +31,53 @@ The internet can be considered one big WAN.
 - Pieces of software that perform network operations.
 - Offered by cloud service providers.
 
-# Network Components, devices, and diagrams
+# Network Components, Devices, and Diagrams
 
-Each device has its own MAC address and IP address which identify it on a network.
-They also have a network interface that sends and recieves data packets. 
+## Network Identifiers
+- **MAC Address:** Identifies devices on a network at the hardware level.
+- **IP Address:** Identifies devices on a network at the network level.
 
-Firewalls: a network security device that monitors traffics to or from your network. They restrict data like a border patrol.
-They are often between the secured and controlled internal network and the untrusted network resources outside the organization.
+## Network Interfaces
+- Each device has a network interface that sends and receives data packets.
 
-Servers: provide information and services to devices on the network. Devices connecting to servers are called clients.
-A client could connect to the server which gets data from a database its connected to.
+## Network Security Devices
 
-While both hubs and switches direct traffics for local networks, swithces sends data specifically to a MAC address, anad hubs repeat info to all connected ports.
+**Firewalls:**
+- A network security device that monitors traffic to or from your network.
+- Restricts data like a border patrol.
+- Positioned between the secured internal network and untrusted external network resources.
 
-Routers are on the network layer in the TCP/IP model. The IP address of the destination network is contained in the IP header. The router reads the IP header information and forwards the packet to the next router on the path to the destination. This continues until the packet reaches the destination network.
+## Servers and Clients
 
-Internet service provider (ISP): are connecting your home/office with internet via coaxial cables or telephone lines.
+**Servers:**
+- Provide information and services to devices on the network.
+- A client device connects to the server, which may get data from a database it is connected to.
 
-Wireless access points: sends and recieves digital siignals over radio waves cvreating a wireless network.
-Wifi: refers to a set of standarads used by network devices to communicate wirelessly.
+## Traffic Management
 
-Network Diagrams:L maps showing network devices and how they connect. They use graphics and dotted lines.
+**Hubs and Switches:**
+- **Hubs:** Direct traffic for local networks by broadcasting information to all connected ports.
+- **Switches:** Send data specifically to a MAC address, making them more efficient and secure than hubs.
+
+**Routers:**
+- Operate on the network layer in the TCP/IP model.
+- Forward packets to the next router on the path to the destination based on IP header information.
+
+## Connectivity
+
+**Internet Service Provider (ISP):**
+- Connects your home/office to the internet via coaxial cables or telephone lines.
+
+**Wireless Access Points:**
+- Send and receive digital signals over radio waves, creating a wireless network.
+
+**Wi-Fi:**
+- A set of standards used by network devices to communicate wirelessly.
+
+## Network Diagrams
+- Maps showing network devices and how they connect.
+- Use graphics and dotted lines to represent connections and relationships.
+
 
 # Cloud Networks
 
