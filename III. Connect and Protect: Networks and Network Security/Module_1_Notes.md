@@ -12,6 +12,14 @@ The internet can be considered one big WAN.
 
 # Network Tools
 
+Hub: a network device broadcasting info to every device on the network
+Switch: makes connections between specific devices on a network by sending and recieving data between them. (More secure than a hub)
+Router: network device connecting multiple networks together
+Modem: Connects your router to the internet and brings internet access to the LAN
+
+Virtualization tools: pieces of software that perform network operations. Offered by cloud service providers.
+
+
 # Network Components, devices, and diagrams
 
 # Cloud Networks
