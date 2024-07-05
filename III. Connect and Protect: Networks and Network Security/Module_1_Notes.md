@@ -9,3 +9,6 @@ The devices can communicate with each other through cables or wirelessly. IP and
 - **Wide Area Network (WAN):** Spans a large geographic area like a city, state, or country.
 
 The internet can be considered one big WAN.
+
+# Network Tools
+
