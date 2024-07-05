@@ -12,3 +12,12 @@ The internet can be considered one big WAN.
 
 # Network Tools
 
+# Network Components, devices, and diagrams
+
+# Cloud Networks
+
+# Cloud computing and software defined networks
+
+# Ungraded Plugin: Practice: Design a local Area Network
+
+# Ungraded Plugin: Identify: functions of network Tools
