@@ -82,13 +82,17 @@ The internet can be considered one big WAN.
 
 A cloud model helps companies reduce costs and streamline network operations.
 
-Cloud computing: the practice of using remote  servres, applications, and network services that are hosted on the internet instead of on local physical devices.
-Cloud Network: a collection of servers or computers that stores resources and data in remote data centers that can be accessed via the internet.
+## Cloud Computing
+- **Definition:** The practice of using remote servers, applications, and network services hosted on the internet instead of on local physical devices.
 
-Cloud services providers offer
-- On-demand storage
-- Processing power
-- Analytics
+## Cloud Network
+- **Definition:** A collection of servers or computers that store resources and data in remote data centers, accessible via the internet.
+
+## Cloud Services Providers Offer:
+- **On-Demand Storage**
+- **Processing Power**
+- **Analytics**
+
 
 
 
