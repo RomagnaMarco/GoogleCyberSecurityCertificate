@@ -83,6 +83,4 @@ The internet can be considered one big WAN.
 
 # Cloud computing and software defined networks
 
-# Ungraded Plugin: Practice: Design a local Area Network
-
 # Ungraded Plugin: Identify: functions of network Tools
