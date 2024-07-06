@@ -198,7 +198,20 @@ If either bandwidth or speed are irregular, it can be a sign of an attack.
 - **443:** Secure internet communication
 - **20:** Large file transfers
 
-#
+# The four layers of the TCP/IP Model
+
+TCP/IP model: a framework used to visualize how data is organized and transmitted across the network.
+
+4 Layers for the TCP/IP model:
+1. Network Access Layer: creation of data packets and their transmission across a network. 
+2. Internet Layer: IP addresses are attatched to data packets to indicate the sender and reciever. Focuses on how networks connect to each other.
+3. Transport Layer: Protocols to control the flow of traffic across a network. They permit or deny the  communication with other devices and include info about the status of the connection.
+4. Application Layer: Protocols determin how the data packets will interact with recieving devices. This includes file transfers and email services.
+
+
+
+
+
 
 
 
