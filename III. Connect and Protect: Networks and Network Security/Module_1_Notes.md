@@ -93,35 +93,59 @@ A cloud model helps companies reduce costs and streamline network operations.
 - **Processing Power**
 - **Analytics**
 
-# Cloud computing and software defined networks
+# Cloud Computing and Software Defined Networks
 
-A cloud service provider (CSP): a company offers cloud computing services. Companies can pay for the storage and services they need and consume them through the CSP's API or web console.
+## Cloud Service Provider (CSP)
+- A company offering cloud computing services.
+- Companies can pay for the storage and services they need and consume them through the CSP's API or web console.
 
-Software as a service (SaaS): software suite operated by the CSP that a company can use remotely without hosting the software
-Infrastructure as a service (IaaS): The use of virtual computer components offered by the CSP.
-Platform as a service (PaaS): refers to tools that application developers can use tto design custom applications for their company
+## Cloud Service Models
 
-IaaS
+**Software as a Service (SaaS):**
+- A software suite operated by the CSP that a company can use remotely without hosting the software.
+
+**Infrastructure as a Service (IaaS):**
+- The use of virtual computer components offered by the CSP.
+
+**Platform as a Service (PaaS):**
+- Tools that application developers can use to design custom applications for their company.
+
+### IaaS
 - Physical Data Center
 - Servers, Networking, Storage
-PaaS
+
+### PaaS
 - Operating Systems
-- Database Management & development tools
-- IaaS
-SaaS
-- Cloud-hosted Applications
-- PaaS
+- Database Management & Development Tools
+- Includes IaaS
 
-Hybrid cloud environment: using a CSP services in addition to their on-premise computers, networks, and storage.
-Multi-Cloud environment: organizations using more than one CSP
+### SaaS
+- Cloud-Hosted Applications
+- Includes PaaS
 
-Software-defined networks (SDN) : made up of virtual network devices and services. They provide virtual switches, routers, firewalls, and more.
+## Hybrid and Multi-Cloud Environments
 
-Benefits of cloud computing and software-defined networks:
-- Reliability: allow employees and customers to access the resources they need consistently and with minimal interruption
-- Cost: Offers virtual devices and services at fractional costs required for companies to install, patch, upgrade, and manage components and software themselves.
-- Scalability: No longer need to upgrade physically or downgrade. They can use elastic model and pay for what they need.
+**Hybrid Cloud Environment:**
+- Using CSP services in addition to on-premise computers, networks, and storage.
 
+**Multi-Cloud Environment:**
+- Organizations using more than one CSP.
+
+## Software-Defined Networks (SDN)
+- Made up of virtual network devices and services.
+- Provide virtual switches, routers, firewalls, and more.
+
+## Benefits of Cloud Computing and Software-Defined Networks
+
+**Reliability:**
+- Allow employees and customers to access the resources they need consistently and with minimal interruption.
+
+**Cost:**
+- Offers virtual devices and services at fractional costs required for companies to install, patch, upgrade, and manage components and software themselves.
+
+**Scalability:**
+- No longer need to upgrade or downgrade physically.
+- Use an elastic model and pay for what they need.
 
 
 
