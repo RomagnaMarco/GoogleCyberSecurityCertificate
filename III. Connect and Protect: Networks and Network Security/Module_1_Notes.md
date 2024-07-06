@@ -170,6 +170,33 @@ If either bandwidth or speed are irregular, it can be a sign of an attack.
 **Packet Sniffing:**
 - The practice of capturing and inspecting data packets across a network.
 
+# The TCP/IP model
+
+Transmission Control Protocol and Internet Protocol (TCP/IP): The standard model used for network communication
+TCP: an internet communication protocol that allows two devices to form a connection and stream data. 
+- It includes a set of instructions to organize data.
+- It also establishes a connection between two devices and makes sure that packets reach the correct destination.
+IP: a set of standards used for routing and addressing data packets as they travel between devices on a network.
+- The IP address functions as an address for each private network.
+
+Port: a software-based location that organizes the sending and recieving of data between devices on a network.
+- divide network traffic into segments based on the service they will perform between two devices.
+
+Port Number: allow computers to split the network traffic and prioritze operations they will perform with the data.
+- these are part of the instructions in data packets
+
+Notable Port Numbers:
+- 25 : Email
+- 443 : Secure inernet communication
+- 20 : Large file transfers
+
+
+
+
+
+
+
+
 
 
 
