@@ -78,8 +78,20 @@ The internet can be considered one big WAN.
 - Maps showing network devices and how they connect.
 - Use graphics and dotted lines to represent connections and relationships.
 
-
 # Cloud Networks
+
+A cloud model helps companies reduce costs and streamline network operations.
+
+Cloud computing: the practice of using remote  servres, applications, and network services that are hosted on the internet instead of on local physical devices.
+Cloud Network: a collection of servers or computers that stores resources and data in remote data centers that can be accessed via the internet.
+
+Cloud services providers offer
+- On-demand storage
+- Processing power
+- Analytics
+
+
+
 
 # Cloud computing and software defined networks
 
