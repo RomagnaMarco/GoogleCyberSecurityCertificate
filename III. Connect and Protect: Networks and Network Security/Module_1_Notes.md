@@ -219,6 +219,8 @@ The TCP/IP model is a framework used to visualize how data is organized and tran
 - Protocols determine how the data packets will interact with receiving devices.
 - Includes services such as file transfers and email services.
 
+# Learn more about the TCP/IP Model
+
 
 
 
