@@ -147,5 +147,27 @@ A cloud model helps companies reduce costs and streamline network operations.
 - No longer need to upgrade or downgrade physically.
 - Use an elastic model and pay for what they need.
 
+# Introduction to network communication
+
+Data packet: a basic unit of information that travels from one device to another within a network.
+- Header: IP address /  MAC address / Protocol Number
+- Body: Message
+- Footer: Signature
+
+Bandwidth: The amount of data a device receives every second
+Speed: The rate at which data packets are recieved or downloaded
+
+If either bandwidth or speed are irregular, it can be the sign of an attack.
+
+Packet Sniffing: The practice of capturing and inspecting data packets across a network.
+
+
+
+
+Data is sent through a network in the form of data packets.
+
+
+
+
 
 
