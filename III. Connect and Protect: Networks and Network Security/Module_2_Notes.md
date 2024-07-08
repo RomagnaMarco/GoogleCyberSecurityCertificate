@@ -82,3 +82,56 @@ Ensure data is sent and received securely across a network.
     - Uses Secure Shell (SSH) which employs Advanced Encryption Standard (AES) and other algorithms to prevent transmission interceptions.
     - Typically port 22.
     - Often used with cloud storage.
+
+# Additional network protocols
+
+ Internet Assigned Numbers Authority (IANA): assign some port numbers to protocols.
+
+ Network Address translation
+ 1. Each device on your network has a private IP address to communicate amongst each other.
+ 2. to have these devices connect to the public internet, they need a single public IP address for all devices on the LAN for the public to see.
+ 3. Outgoing messages can have the priave Ip replaced by the public one via the router. The router can also reverse this process.
+
+Network Address Translation (NAT):  generally requires a router or firewall specifically configured to perform NAT.
+- is part of Layer 2 (internet) and 3 (transport) layers of the TCP/IP Model.
+
+Private IP Addresses:
+- Assigned by the Router
+- Unique only within private network
+- No cost to use
+- Address ranges:
+  - 10.0.0.0-10.255.255.255
+  - 172.16.0.0-172.31.255.255
+  - 192.168.0.0-192.168.255.255
+
+Public IP Addresses:
+- ASsigned by the ISP and IANA
+- Unique address in global internet
+- Cost to lease a public IP address
+- Assignable Address ranges:
+  - 1.0.0.0-9.255.255.25
+  - 11.0.0.0-126.255.255.255
+  - 128.0.0.0-172.15.255.255
+  - 172.32.0.0-192.167.255.255
+  - 192.169.0.0-233.255.255.255
+ 
+Dynamic Host Configuration Protocol (DHCP): The management family of network protocols. Its used on a network to configure devices.
+- application layer protocol
+- works with router to assign Unique IP addresses to each device
+- provides the addresses of appropriate DNS server and default gateway for each device
+- operate on UDP port 67
+- HDCP clients operate on UDP port 68
+
+IP addresses on a device can change over time, but a MAC address is permanent due it being on the network interface card.
+Address Resolution Protocol (ARP) can help find an unknown MAC address. It translates IP addresses to MAC addresses  on the network access layer in TCP/IP model
+
+Telnet: protocol used to create a secure connection with a remote system
+- application layer in TCP/IP model
+- sends in clear text
+- uses CLE, not as secure as SSH.
+- TCP Port 23
+- connects to local or remomte devices
+
+Secure shell protocol (SSH):
+
+
