@@ -221,6 +221,43 @@ The TCP/IP model is a framework used to visualize how data is organized and tran
 
 # Learn more about the TCP/IP Model
 
+Network Access Layer
+- HTTP
+- TLS
+- DNS
+This can also be called the data link layer. The physical hardware is in this layer.
+Address  resolution protocoll (ARP): is part of the network access layer. It is used to map IP addresses to MAC addresses for local network communication
+
+Internet Layer
+- IP (v4,  v6)
+This can also be called the network layer. This  layer determines which protocol is responsible for delivering the data packets and ensures the delivery to the destination host.
+Common protocols in this layer:
+Internet Protocol (IP): sends the data packets to the correct destination and relies on the Transmission Control Protocol/User Datagram Protocol (TCP/UDP) to deliver them to the corresponding service. 
+Internet Control Message Protocol (ICMP): shares error information and status updates of data packets. This is useful for detecting and troubleshooting network errors. The ICMP reports information about packets that were dropped or that disappeared in transit, issues with network connectivity, and packets redirected to other routers.
+
+Transport Layer
+- TCP: internet communication protocol that allows two devices to form a connection and stream data.
+    - Reliable
+    - port number of desintation service (in header of packet)
+- UDP: connectionless protocol that does not establish a connection between devices before transmissions
+    - for non-reliability based needs
+    - not tracked extensively
+    - for performance sensitive applications in real time (video streaming)
+
+Application Layer
+- Hypertext transfer protocol (HTTP)
+- Simple mail transfer protocol (SMTP)
+- Secure shell (SSH)
+- File transfer protocol (FTP)
+- Domain name system (DNS)
+This layer is similar to the application, presentation, and session layers of the OSI model. This defines which internet services and applications any user can access.
+
+OSI Model
+- visualizes network protocols into different layers. It is often used to communicate potential sources of secruity threats when they occur.
+- More complex version of TCP/IP Model.
+
+
+
 
 
 
