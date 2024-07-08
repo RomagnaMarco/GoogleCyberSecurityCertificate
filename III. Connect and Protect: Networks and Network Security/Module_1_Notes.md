@@ -332,43 +332,61 @@ The OSI Model is made up of 7 Layers:
 - Functions like an address book.
 - Used by a switch to direct data packets to the right device by binding the MAC addresses to ports.
 
-# Components of network layer communication
+# Components of Network Layer Communication
 
-Format of an IPv4 packet
-- Header (20-60  bytes)
-- Data (20-65,535 bytes)
+## Format of an IPv4 Packet
 
-13 fields within the header of an IPv4 packet:
-- Version (VER): tells receiving devices what protocol the packet is using
-  - 4 bit component
-- IP Header Length (HLEN or IHL): the packet’s header length, indicates start and end of header in data segment.
-  - 4 bit component
-- Type Service (Tos): provides router with info on prioritzing packets for delivery.
-  - 8 bit component
+### IPv4 Packet Structure
+- **Header:** 20-60 bytes
+- **Data:** 20-65,535 bytes
 
-- Total Length: communicates the total length of the entire IP packet, including header and data
-  - maximum size of an IPv4 packet is 65,535 bytes 
-- Identification: provides a unique identifier for all sperated fragments of the original IP packet to be reassembled once they reach their destination.
-- Flags: provides the routing device with more information such as if its been fragmented or the amount of fragments in transit.
-- Fragmentation Offset: tells routing devices where in the original packet the fragment belongs
-- Time to Live (TTL): It contains a counter that is set by the source.
-  - decremented as it passes through each router along its path
-  - on szero the router holding the packet will discard it and return a nICMP time exceeded error message to the sender.
-- Protocol: tells the receiving device which protocol will be used for the data portion of the packet.
-- Header Checksum: contains a checksum that can be used to detect corruption of the IP header in transit
-  - corrupted packets are discarded 
-- Destination IP address: the IPv4 address of the sending device.
-- Options:allows for security options to be applied to the packet if the HLEN value is greater than five
-  - Field communicates these options to the routing devices.
+### 13 Fields within the Header of an IPv4 Packet
+1. **Version (VER):** 
+   - Tells receiving devices what protocol the packet is using.
+   - 4-bit component.
+2. **IP Header Length (HLEN or IHL):**
+   - Indicates the packet’s header length, marking the start and end of the header in the data segment.
+   - 4-bit component.
+3. **Type of Service (ToS):**
+   - Provides the router with information on prioritizing packets for delivery.
+   - 8-bit component.
+4. **Total Length:**
+   - Communicates the total length of the entire IP packet, including header and data.
+   - Maximum size of an IPv4 packet is 65,535 bytes.
+5. **Identification:**
+   - Provides a unique identifier for all separated fragments of the original IP packet to be reassembled once they reach their destination.
+6. **Flags:**
+   - Provides routing devices with more information, such as if it has been fragmented or the amount of fragments in transit.
+7. **Fragmentation Offset:**
+   - Tells routing devices where in the original packet the fragment belongs.
+8. **Time to Live (TTL):**
+   - Contains a counter set by the source.
+   - Decremented as it passes through each router along its path.
+   - When it reaches zero, the router holding the packet will discard it and return an ICMP time exceeded error message to the sender.
+9. **Protocol:**
+   - Tells the receiving device which protocol will be used for the data portion of the packet.
+10. **Header Checksum:**
+    - Contains a checksum that can be used to detect corruption of the IP header in transit.
+    - Corrupted packets are discarded.
+11. **Source IP Address:**
+    - The IPv4 address of the sending device.
+12. **Destination IP Address:**
+    - The IPv4 address of the receiving device.
+13. **Options:**
+    - Allows for security options to be applied to the packet if the HLEN value is greater than five.
+    - Communicates these options to the routing devices.
 
-Differences between IPv4 and IPv6
-- length and format of the addresses.
-  - IPv4 has up to 4.3 billion possible addresses
-  - IPv6 has up to 240 undecillion addresses 
-- IPv6 offers more effecient routing and elimamtes private address collisions (two devices on same network attempting to use same address)
-- IPv6 header layout is simpler
-  - Version, Traffic Class, Flow Label
-  - Payload Length, Next Header, Hop Limit
-  - Source Address
-  - Destination Address
+## Differences Between IPv4 and IPv6
 
+- **Address Length and Format:**
+  - IPv4: Up to 4.3 billion possible addresses.
+  - IPv6: Up to 340 undecillion addresses.
+- **Routing Efficiency:**
+  - IPv6 offers more efficient routing and eliminates private address collisions (two devices on the same network attempting to use the same address).
+- **Header Layout:**
+  - IPv6 header is simpler.
+  - **IPv6 Header Fields:**
+    - Version, Traffic Class, Flow Label
+    - Payload Length, Next Header, Hop Limit
+    - Source Address
+    - Destination Address
