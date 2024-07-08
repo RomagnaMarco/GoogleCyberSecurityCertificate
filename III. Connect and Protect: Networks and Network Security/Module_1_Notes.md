@@ -361,3 +361,14 @@ Format of an IPv4 packet
 - Options:allows for security options to be applied to the packet if the HLEN value is greater than five
   - Field communicates these options to the routing devices.
 
+Differences between IPv4 and IPv6
+- length and format of the addresses.
+  - IPv4 has up to 4.3 billion possible addresses
+  - IPv6 has up to 240 undecillion addresses 
+- IPv6 offers more effecient routing and elimamtes private address collisions (two devices on same network attempting to use same address)
+- IPv6 header layout is simpler
+  - Version, Traffic Class, Flow Label
+  - Payload Length, Next Header, Hop Limit
+  - Source Address
+  - Destination Address
+
