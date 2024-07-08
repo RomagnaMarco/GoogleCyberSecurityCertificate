@@ -30,30 +30,55 @@ Network Protocols: A set of rules used by two or more devices on a network to de
 - **HTTPS**
 - **SSL/TLS**
 
-
 # Common Network Protocols
 
-3 main categories of protocols:
-- Communication: govern exchange of information in internet transmission.
-  - how data is transmitted
-  - handle timing of communication
-  - methods of data recovery from transit
-  - Include
-    - TCP: 3 way handshake, Synchronize (SYN) and acknowledgement (ACK) to establish handshake. Transport Layer of TCP/IP model
-    - UDP: Transport Layer of TCP/IP model
-    - HTTP: Port 80, insecure. Application Layer of TCP/IP model
-    - DNS : normally port 53, application layer of TCP/IP model
-- Management: monitoring and managing devices on a network
-  - include protocols for error reporting and optimizing network performance
-  - Include:
-    - Simple Network Management Protocol (SNMP): used for monitoring and managing devices on a network. Checks Bandwidth usage. Application layer of TCP/IP model
-    - Internet Control Message Protocol (ICMP): used by devices to tell each other about data transmission errors across a network. useful in troubleshooting network connectivity and latency via Ping command. Internet Layer of TCP/IP model
-- Security: ensure data is sent and recieved securely across a network
-  -  use encryption algorithms
-  -  Includes:
-    - HTTPS: Secure version of HTTP, secure sockets layer/transport layer security (SSL/TLS) encryption on all transmissions. Port 443. Application layer of TCP/IP model
-    - Secure File Transfer Protocol (SFTP): used to transfer files from one device to another over a network. uses secure shell(SSH) which uses Advanced Encryption Standard (AES) and others to prevent transmission interceptions. Typically port 22. Often used with cloud storage.
- 
+## Categories of Protocols
 
+### 1. Communication Protocols
+Govern the exchange of information in internet transmission.
+- **Responsibilities:**
+  - How data is transmitted
+  - Timing of communication
+  - Methods of data recovery from transit
+- **Examples:**
+  - **TCP (Transmission Control Protocol):**
+    - 3-way handshake: Synchronize (SYN) and acknowledgement (ACK) to establish handshake.
+    - Transport Layer of TCP/IP model.
+  - **UDP (User Datagram Protocol):**
+    - Transport Layer of TCP/IP model.
+  - **HTTP (Hypertext Transfer Protocol):**
+    - Port 80, insecure.
+    - Application Layer of TCP/IP model.
+  - **DNS (Domain Name System):**
+    - Normally port 53.
+    - Application Layer of TCP/IP model.
 
-- 
+### 2. Management Protocols
+Monitor and manage devices on a network.
+- **Responsibilities:**
+  - Error reporting
+  - Optimizing network performance
+- **Examples:**
+  - **SNMP (Simple Network Management Protocol):**
+    - Used for monitoring and managing devices on a network.
+    - Checks bandwidth usage.
+    - Application Layer of TCP/IP model.
+  - **ICMP (Internet Control Message Protocol):**
+    - Used by devices to report data transmission errors across a network.
+    - Useful in troubleshooting network connectivity and latency via Ping command.
+    - Internet Layer of TCP/IP model.
+
+### 3. Security Protocols
+Ensure data is sent and received securely across a network.
+- **Responsibilities:**
+  - Use of encryption algorithms
+- **Examples:**
+  - **HTTPS (Hypertext Transfer Protocol Secure):**
+    - Secure version of HTTP using SSL/TLS encryption on all transmissions.
+    - Port 443.
+    - Application Layer of TCP/IP model.
+  - **SFTP (Secure File Transfer Protocol):**
+    - Used to transfer files securely from one device to another over a network.
+    - Uses Secure Shell (SSH) which employs Advanced Encryption Standard (AES) and other algorithms to prevent transmission interceptions.
+    - Typically port 22.
+    - Often used with cloud storage.
