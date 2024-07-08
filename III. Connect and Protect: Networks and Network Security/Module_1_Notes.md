@@ -308,5 +308,26 @@ The OSI Model is made up of 7 Layers:
 - **Examples:** Hubs, modems, and the cables and wiring that connect them.
   - **Process:** To travel across an Ethernet or coaxial cable, a data packet needs to be translated into a stream of 0s and 1s. The stream of 0s and 1s is sent across the physical wiring and cables, received, and then passed on to higher levels of the OSI model.
 
+# IP addresses and network communication
+
+IP Address: a unique string of characters that identifies the location of a device on the internet.
+- Can be public or private
+- Your Internet Service Provider (ISP) will assign a public IP address connected to your geographic location.
+- private IP addresses will only be seen be other same devices on the same network
+
+2 Types of IP:
+- IPv4
+  - written as afour 1,2, or 3 digit numbers seperated by a decimal point
+  - for all IPs in early days of internet.
+  - Ex: 19.117.63.126
+- IPv6
+  - Made of 32 characters
+  - Ex: 684D:1111:222:3333:4444:5555:6:77
+
+ MAC address: a unique alphanumeric identifier that is assigned to each physical device on a network.
+
+ A MAC address table is like an address book a switch uses to direct data packets to the right device by binding the MAC addresses to ports.
+  
+
 
 
