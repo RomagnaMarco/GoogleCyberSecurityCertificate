@@ -332,5 +332,32 @@ The OSI Model is made up of 7 Layers:
 - Functions like an address book.
 - Used by a switch to direct data packets to the right device by binding the MAC addresses to ports.
 
+# Components of network layer communication
 
+Format of an IPv4 packet
+- Header (20-60  bytes)
+- Data (20-65,535 bytes)
+
+13 fields within the header of an IPv4 packet:
+- Version (VER): tells receiving devices what protocol the packet is using
+  - 4 bit component
+- IP Header Length (HLEN or IHL): the packet’s header length, indicates start and end of header in data segment.
+  - 4 bit component
+- Type Service (Tos): provides router with info on prioritzing packets for delivery.
+  - 8 bit component
+
+- Total Length: communicates the total length of the entire IP packet, including header and data
+  - maximum size of an IPv4 packet is 65,535 bytes 
+- Identification: provides a unique identifier for all sperated fragments of the original IP packet to be reassembled once they reach their destination.
+- Flags: provides the routing device with more information such as if its been fragmented or the amount of fragments in transit.
+- Fragmentation Offset: tells routing devices where in the original packet the fragment belongs
+- Time to Live (TTL): It contains a counter that is set by the source.
+  - decremented as it passes through each router along its path
+  - on szero the router holding the packet will discard it and return a nICMP time exceeded error message to the sender.
+- Protocol: tells the receiving device which protocol will be used for the data portion of the packet.
+- Header Checksum: contains a checksum that can be used to detect corruption of the IP header in transit
+  - corrupted packets are discarded 
+- Destination IP address: the IPv4 address of the sending device.
+- Options:allows for security options to be applied to the packet if the HLEN value is greater than five
+  - Field communicates these options to the routing devices.
 
