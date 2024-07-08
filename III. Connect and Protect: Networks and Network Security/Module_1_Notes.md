@@ -264,6 +264,48 @@ This layer is similar to the Application, Presentation, and Session layers of th
 - More complex version of the TCP/IP model.
 
 
+# The OSI Model
+
+The OSI Model is made up of 7 Layers:
+7. Application
+- Includes all the networking protocols that  software apps use to connect users to the internet.
+- "user connection to the internet via applications and requests"
+- Ex: Web Browser, using HTTP/HTTPS tot send/recieve info from the website server.
+- Ex: Email app uses Simple  mail transfer protocol (SMTP)
+- Ex: web browser using Domain name system (DNS) to translate domain names into IP addresses to ID web server hosts.
+  
+6. Presentation
+  - involve data translation and encryption for the network
+  - adds to and replaces data with formats that can be understood by applications (layer 7) on both sending and receiving systems
+  - processes require the use of a standardized format
+  - Ex: Encryption, compression, confirmation that the character code can be interpreted on the recieving system.
+
+5. Session
+- An open session describes when a connection is established between two devices
+- protocols keep the session open while data is being transferred and terminate the session once the transmission is complete
+- responsible for activities such as authentication, reconnection, and setting checkpoints during a data transfer
+- If a session is interrupted, checkpoints ensure that the transmission picks up at the last session checkpoint when the connection resumes
+  
+4. Transport
+- responsible for delivering data between devices
+- handles the speed of data transfer, flow of the transfer, and breaking data down into smaller segments to make them easier to transport
+-Ex: TCP, UDP 
+
+Segmentation: the process of dividing up a large data transmission into smaller pieces that can be processed by the receiving system.
+  
+3. Network
+- oversees receiving the frames from the data link layer (layer 2) and delivers them to the intended destination
+- intended destination can be found based on the address that resides in the frame of the data packets
+
+2. Data Link
+- organizes sending and receiving data packets within a single network
+- home to switches on the local network and network interface cards on local devices.
+- Ex: Network Control Protocol (NCP), High-level data link control (HDLC), synchronous data link control protocol (SDLC)
+
+1. Physical
+- corresponds to the physical hardware involved in network transmission
+- Ex: Hubs, modems, and the cables and wiring that connect them
+- To travel across an ethernet or coaxial cable, a data packet needs to be translated into a stream of 0s and 1s. The stream of 0s and 1s are sent across the physical wiring and cables, received, and then passed on to higher levels of the OSI model.
 
 
 
