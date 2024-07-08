@@ -308,26 +308,29 @@ The OSI Model is made up of 7 Layers:
 - **Examples:** Hubs, modems, and the cables and wiring that connect them.
   - **Process:** To travel across an Ethernet or coaxial cable, a data packet needs to be translated into a stream of 0s and 1s. The stream of 0s and 1s is sent across the physical wiring and cables, received, and then passed on to higher levels of the OSI model.
 
-# IP addresses and network communication
+# IP Addresses and Network Communication
 
-IP Address: a unique string of characters that identifies the location of a device on the internet.
-- Can be public or private
-- Your Internet Service Provider (ISP) will assign a public IP address connected to your geographic location.
-- private IP addresses will only be seen be other same devices on the same network
+**IP Address:** A unique string of characters that identifies the location of a device on the internet.
+- Can be public or private.
+- Your Internet Service Provider (ISP) assigns a public IP address connected to your geographic location.
+- Private IP addresses are only seen by other devices on the same network.
 
-2 Types of IP:
-- IPv4
-  - written as afour 1,2, or 3 digit numbers seperated by a decimal point
-  - for all IPs in early days of internet.
-  - Ex: 19.117.63.126
-- IPv6
-  - Made of 32 characters
-  - Ex: 684D:1111:222:3333:4444:5555:6:77
+## Types of IP Addresses
 
- MAC address: a unique alphanumeric identifier that is assigned to each physical device on a network.
+### IPv4
+- Written as four 1, 2, or 3 digit numbers separated by a decimal point.
+- Used for all IPs in the early days of the internet.
+- **Example:** 19.117.63.126
 
- A MAC address table is like an address book a switch uses to direct data packets to the right device by binding the MAC addresses to ports.
-  
+### IPv6
+- Made of 32 characters.
+- **Example:** 684D:1111:222:3333:4444:5555:6:77
+
+**MAC Address:** A unique alphanumeric identifier assigned to each physical device on a network.
+
+## MAC Address Table
+- Functions like an address book.
+- Used by a switch to direct data packets to the right device by binding the MAC addresses to ports.
 
 
 
