@@ -172,6 +172,50 @@ Ensure data is sent and received securely across a network.
 - A wireless security protocol for devices to connect to the internet.
 - WPA2 and WPA3 are newer versions with more advanced encryption and security.
 
+# The evolution of wireless security protocols
+
+Wireless Ethernet Compatibility Alliance (WECA)
+- coined the term Wi-Fi
+- renamed later to Wi-Fi Alliance
+
+Wired Equivalency Privacy (WEP): a wireless security protocol desined to provide users the same mlevel of privacy on wireless network connections as they have on wired network connections
+- 1999, oldest of wireless security standards
+- Flaws:
+  - the protocol itself
+  - how it used encryption
+
+Wi-Fi Protected Access (WPA): intended to be a transitional measure for backwards compability could be established for older hardware.
+- 2003, to improve upon WEP
+- used Temporal Key Integrity Protocol (TKIP) to address the WEP encryption weakness.  It's new algorithm uses larger keys to make them harder to guess by trail and error.
+- includes integrity check (message auth tag with each transmission).
+- Vulnerabilities:
+  - key reinstallation attacks (KRACK attack) to decrypt transmissions using WPA.
+  - attackers can insert themselves in the auth handshake process and insert a new encrpytion key isntead of the dynamic one assigned by WPA.
+    - by setting the new key to all 0s, its not encrypted.
+- vulnerabilities of WPA addressed by WPA2 and WPA3
+
+ WPA2 & WPA3
+ - WPA2: using Advanced encryption Standard (AES) to improve on WPA. 
+   - 2004
+   - uses the Counter Mode Cipher Block Chain Message Authentication Code Protocol (CCMP) to provide encapsulation, message integrity and auth.
+   - is considered the security standard for all Wi-Fi transmissions today.
+   - Vulnerabilities:
+     - Still KRACK attack
+    
+  - WPA2 Personal: best suited for home networks
+    - easy to implement and faster setup thtan enterprise version
+    - not suitable for organizations.
+  - WPA2 Enterprise: best for business applications
+    - more complicated than personal mode, but offers more individualized and centralized control over the Wi-Fi access on a network.
+    - Admins can easily remove or grant access to the network.
+    - users never have to access encryption keys, making them not recoverable for attackers to exploit.
+  - WPA3:  growing in usage.
+    - addresses authentication handshake vulnerability to KRACK attacks
+    - uses Simultaneous Authentication of Equals (SAE): a password-authenticated, cipher-key sharing agreement.
+    - increased encryption compared to WPA2, using 128 bit, WPA3 Enterprise offering 192-bit encryption.
+   
+  
+
 
 
 
