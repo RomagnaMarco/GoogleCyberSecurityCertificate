@@ -105,7 +105,7 @@ Private IP Addresses:
   - 192.168.0.0-192.168.255.255
 
 Public IP Addresses:
-- ASsigned by the ISP and IANA
+- Assigned by the ISP and IANA
 - Unique address in global internet
 - Cost to lease a public IP address
 - Assignable Address ranges:
@@ -132,6 +132,29 @@ Telnet: protocol used to create a secure connection with a remote system
 - TCP Port 23
 - connects to local or remomte devices
 
-Secure shell protocol (SSH):
+Secure shell protocol (SSH): used to create a secure connection with a remote system.
+- application layer in TCP/IP model
+- TCP port 22.
+- replaces less secure protocols such as Telnet
+
+Post Office Protocol (POP): used to manage and retrieve email from a mail server.
+- application layer of TCP/IP model
+- POP3 is most commonly used version.
+- Refresh an email application to see new emails pop up is POP and internet message access protocol (IMAP)
+- plaintext use TCP/UDP port 110
+- encrypted use TCP/UDP port 995 via SSL/TLS
+
+Internet Message Access Protocol (IMAP): used for incoming email. It downloads the headers of email and the message content.
+- content also remains on email server, for multiple devices to access.
+- uses TCP port 143 unencrypted
+- uses TCP port 993 over TLS protocol
+
+Simple Mail Transfer Protocol: used to transmit and rotue email from the sender to the recipient's address
+- works with Message Transfer Afent (MTA) software: searches DNS servers to resolve email and IP addresses, ensuring they reach their destination.
+- uses TCP/UDP port 25 for unencrypted, often used by high volume spam
+- uses TCP/UDP port 587 for TLS encrypted
+- helps filter out spam, regulating the number of emails able to be sent.
+
+
 
 
