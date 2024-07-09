@@ -83,77 +83,85 @@ Ensure data is sent and received securely across a network.
     - Typically port 22.
     - Often used with cloud storage.
 
-# Additional network protocols
+# Additional Network Protocols
 
- Internet Assigned Numbers Authority (IANA): assign some port numbers to protocols.
+## Internet Assigned Numbers Authority (IANA)
+- Assigns port numbers to protocols.
 
- Network Address translation
- 1. Each device on your network has a private IP address to communicate amongst each other.
- 2. to have these devices connect to the public internet, they need a single public IP address for all devices on the LAN for the public to see.
- 3. Outgoing messages can have the priave Ip replaced by the public one via the router. The router can also reverse this process.
+## Network Address Translation (NAT)
+- Each device on your network has a private IP address for internal communication.
+- To connect to the public internet, devices need a single public IP address.
+- NAT replaces private IP addresses with a public one via the router, which can also reverse this process.
+- Requires a router or firewall configured for NAT.
+- Operates in Layer 2 (Internet) and Layer 3 (Transport) layers of the TCP/IP model.
 
-Network Address Translation (NAT):  generally requires a router or firewall specifically configured to perform NAT.
-- is part of Layer 2 (internet) and 3 (transport) layers of the TCP/IP Model.
+## IP Addresses
 
-Private IP Addresses:
-- Assigned by the Router
-- Unique only within private network
-- No cost to use
+### Private IP Addresses
+- Assigned by the router.
+- Unique only within a private network.
+- No cost to use.
 - Address ranges:
-  - 10.0.0.0-10.255.255.255
-  - 172.16.0.0-172.31.255.255
-  - 192.168.0.0-192.168.255.255
+  - 10.0.0.0 - 10.255.255.255
+  - 172.16.0.0 - 172.31.255.255
+  - 192.168.0.0 - 192.168.255.255
 
-Public IP Addresses:
-- Assigned by the ISP and IANA
-- Unique address in global internet
-- Cost to lease a public IP address
-- Assignable Address ranges:
-  - 1.0.0.0-9.255.255.25
-  - 11.0.0.0-126.255.255.255
-  - 128.0.0.0-172.15.255.255
-  - 172.32.0.0-192.167.255.255
-  - 192.169.0.0-233.255.255.255
- 
-Dynamic Host Configuration Protocol (DHCP): The management family of network protocols. Its used on a network to configure devices.
-- application layer protocol
-- works with router to assign Unique IP addresses to each device
-- provides the addresses of appropriate DNS server and default gateway for each device
-- operate on UDP port 67
-- HDCP clients operate on UDP port 68
+### Public IP Addresses
+- Assigned by the ISP and IANA.
+- Unique address on the global internet.
+- Cost to lease a public IP address.
+- Address ranges:
+  - 1.0.0.0 - 9.255.255.25
+  - 11.0.0.0 - 126.255.255.255
+  - 128.0.0.0 - 172.15.255.255
+  - 172.32.0.0 - 192.167.255.255
+  - 192.169.0.0 - 233.255.255.255
 
-IP addresses on a device can change over time, but a MAC address is permanent due it being on the network interface card.
-Address Resolution Protocol (ARP) can help find an unknown MAC address. It translates IP addresses to MAC addresses  on the network access layer in TCP/IP model
+## Dynamic Host Configuration Protocol (DHCP)
+- Application layer protocol used to configure devices on a network.
+- Works with the router to assign unique IP addresses to each device.
+- Provides addresses of appropriate DNS servers and default gateway for each device.
+- Operates on UDP port 67.
+- DHCP clients operate on UDP port 68.
 
-Telnet: protocol used to create a secure connection with a remote system
-- application layer in TCP/IP model
-- sends in clear text
-- uses CLE, not as secure as SSH.
-- TCP Port 23
-- connects to local or remomte devices
+## Address Resolution Protocol (ARP)
+- Translates IP addresses to MAC addresses on the network access layer in the TCP/IP model.
+- Used to find an unknown MAC address.
 
-Secure shell protocol (SSH): used to create a secure connection with a remote system.
-- application layer in TCP/IP model
-- TCP port 22.
-- replaces less secure protocols such as Telnet
+## Telnet
+- Protocol used to create a connection with a remote system.
+- Application layer in the TCP/IP model.
+- Sends data in clear text, less secure than SSH.
+- Uses TCP port 23.
 
-Post Office Protocol (POP): used to manage and retrieve email from a mail server.
-- application layer of TCP/IP model
-- POP3 is most commonly used version.
-- Refresh an email application to see new emails pop up is POP and internet message access protocol (IMAP)
-- plaintext use TCP/UDP port 110
-- encrypted use TCP/UDP port 995 via SSL/TLS
+## Secure Shell Protocol (SSH)
+- Protocol used to create a secure connection with a remote system.
+- Application layer in the TCP/IP model.
+- Uses TCP port 22.
+- Replaces less secure protocols such as Telnet.
 
-Internet Message Access Protocol (IMAP): used for incoming email. It downloads the headers of email and the message content.
-- content also remains on email server, for multiple devices to access.
-- uses TCP port 143 unencrypted
-- uses TCP port 993 over TLS protocol
+## Email Protocols
 
-Simple Mail Transfer Protocol: used to transmit and rotue email from the sender to the recipient's address
-- works with Message Transfer Afent (MTA) software: searches DNS servers to resolve email and IP addresses, ensuring they reach their destination.
-- uses TCP/UDP port 25 for unencrypted, often used by high volume spam
-- uses TCP/UDP port 587 for TLS encrypted
-- helps filter out spam, regulating the number of emails able to be sent.
+### Post Office Protocol (POP)
+- Manages and retrieves email from a mail server.
+- Application layer of the TCP/IP model.
+- POP3 is the most commonly used version.
+- Uses TCP/UDP port 110 for plaintext.
+- Uses TCP/UDP port 995 for encrypted via SSL/TLS.
+
+### Internet Message Access Protocol (IMAP)
+- Manages and retrieves email from a mail server, downloading headers of emails and the message content.
+- Content remains on the email server for access from multiple devices.
+- Uses TCP port 143 for unencrypted.
+- Uses TCP port 993 over TLS protocol.
+
+### Simple Mail Transfer Protocol (SMTP)
+- Transmits and routes email from the sender to the recipient's address.
+- Works with Message Transfer Agent (MTA) software to resolve email and IP addresses, ensuring delivery.
+- Uses TCP/UDP port 25 for unencrypted (often used by spam).
+- Uses TCP/UDP port 587 for TLS encrypted.
+- Helps filter out spam and regulates the number of emails sent.
+
 
 
 
