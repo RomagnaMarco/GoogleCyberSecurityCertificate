@@ -162,7 +162,15 @@ Ensure data is sent and received securely across a network.
 - Uses TCP/UDP port 587 for TLS encrypted.
 - Helps filter out spam and regulates the number of emails sent.
 
+# Wireless Protocols
 
+IEEE 802.11 (WiFi): a set of standards that define communication for wireless LANs?
+- IEEE stands for the Institute of Electrical and Electronics Engineers
+
+WiFi Protected Access (WPA): a wireless security protocol for devices to connect to the internet.
+-  WPA2 and WPA3 are  nweer versions with more advanced encryption anad security.
+
+-  
 
 
 
