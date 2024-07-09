@@ -164,13 +164,14 @@ Ensure data is sent and received securely across a network.
 
 # Wireless Protocols
 
-IEEE 802.11 (WiFi): a set of standards that define communication for wireless LANs?
-- IEEE stands for the Institute of Electrical and Electronics Engineers
+## IEEE 802.11 (WiFi)
+- A set of standards that define communication for wireless LANs.
+- Developed by the Institute of Electrical and Electronics Engineers (IEEE).
 
-WiFi Protected Access (WPA): a wireless security protocol for devices to connect to the internet.
--  WPA2 and WPA3 are  nweer versions with more advanced encryption anad security.
+## WiFi Protected Access (WPA)
+- A wireless security protocol for devices to connect to the internet.
+- WPA2 and WPA3 are newer versions with more advanced encryption and security.
 
--  
 
 
 
