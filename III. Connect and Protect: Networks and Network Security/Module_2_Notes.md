@@ -309,14 +309,21 @@ CIDR is a method of assigning subnet masks to IP addresses to create a subnet.
 
 # Proxy Servers
 
-Proxy servers: a server t hat fulfills the request of a client by forwarding them on to other servers
-- sits between the internet and the rest of the network.
-- uses temporary memory to store common data to prevent fetching data from internal servers each time.
+Proxy servers are servers that fulfill the request of a client by forwarding them on to other servers.
+- **Position:** Sits between the internet and the rest of the network.
+- **Function:** Uses temporary memory to store common data to prevent fetching data from internal servers each time.
 
-Different types of proxy servers:
-- forward: regulates and restricts a person's access to the internet
-- reverse: regulates and restricts the internet's access to an internal server
-- email: filters spam email by verifying whether a sender's address was forged.
+## Types of Proxy Servers
+
+### Forward Proxy
+- **Purpose:** Regulates and restricts a person's access to the internet.
+
+### Reverse Proxy
+- **Purpose:** Regulates and restricts the internet's access to an internal server.
+
+### Email Proxy
+- **Purpose:** Filters spam email by verifying whether a sender's address was forged.
+
 
 
 
