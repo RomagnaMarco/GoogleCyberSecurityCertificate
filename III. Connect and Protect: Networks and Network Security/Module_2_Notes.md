@@ -214,25 +214,40 @@ Ensure data is sent and received securely across a network.
   - Uses Simultaneous Authentication of Equals (SAE), a password-authenticated, cipher-key sharing agreement.
   - Offers increased encryption compared to WPA2, with 128-bit encryption for WPA3 Personal and 192-bit encryption for WPA3 Enterprise.
 
-# Firewalls and network security measures
+# Firewalls and Network Security Measures
 
-Firewall: a network security device that allows or blocks traffic based on a defined set of security rules.
-Port filtering: a firewall function that blocks or allows certain port numbers to limit unwanted communication
+## Firewall
+A firewall is a network security device that allows or blocks traffic based on a defined set of security rules.
 
-Firewall Types:
-- Hardware: inspects each data packet before allowing it to go to the network.
-- Software: does what a hardware firewall does, but not as a physical device. It is installed a computer or server. It typically cost less than purchasing a seperate device, but it adds some processesing burden to the individual devices
-- Cloud-based: like software firewalls, but hosted by a cloud provider.
+### Port Filtering
+Port filtering is a firewall function that blocks or allows certain port numbers to limit unwanted communication.
 
-Stateful: a class of firewall that keeps track of information passing through it aand proactively filters out threats
-Stateless: a class of firewall that operates based on predefined rules and does not keep track of information from data packets.
-- only acts accordingly to preconfigured rules set by the firewall admin.
-- considered less secure than stateful firewall
+### Firewall Types
+- **Hardware:**
+  - Inspects each data packet before allowing it to go to the network.
+- **Software:**
+  - Functions like a hardware firewall but as a software application installed on a computer or server.
+  - Typically costs less than a separate device but adds some processing burden to individual devices.
+- **Cloud-based:**
+  - Functions like software firewalls but hosted by a cloud provider.
 
-Next Generation Firewall (NGFWs) Benefits:
-- Deep packet inspection
-- Intrustion protection
-- Cloud based threat intelligence services
+### Firewall Classes
+- **Stateful:**
+  - Keeps track of information passing through it and proactively filters out threats.
+- **Stateless:**
+  - Operates based on predefined rules and does not keep track of information from data packets.
+  - Only acts according to preconfigured rules set by the firewall admin.
+  - Considered less secure than stateful firewalls.
+
+### Next Generation Firewalls (NGFWs)
+#### Benefits:
+- **Deep Packet Inspection:**
+  - Analyzes the data part (and possibly the header) of a packet as it passes an inspection point.
+- **Intrusion Protection:**
+  - Detects and prevents cyber threats and attacks.
+- **Cloud-based Threat Intelligence Services:**
+  - Leverages cloud-based intelligence to identify and mitigate threats.
+
 
 
 
