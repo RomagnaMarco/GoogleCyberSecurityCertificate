@@ -262,6 +262,26 @@ Encapsulation is a process performed by a VPN service that protects your data by
 ### VPN Tunnel
 A VPN tunnel is an encrypted tunnel between your device and the VPN server, which is unhackable without a cryptographic key.
 
+# Security Zone
+
+Security zone: a segment of a network that protects the internal network from the internet. Part of network segmentation.
+
+Network Segmentation: a security technique that divides the network into segments.
+
+Different organizations will have different subnets for different groups. This allows for admins to islotate the problem on one network and avoid having the others contaminated.
+
+Two types of security zones
+- Uncontrolled zone: any network outside of the organizations control
+- Controlled zone: a subnet that protects the internal network from the uncontrolled zone
+
+Areas in the controlled zone:
+- Demilitarized zone (DMZ)
+- Internal Network
+- Restricted Zone
+
+Example:
+Internet - Firewall - DMZ - Firewall - Internal Network - Firewall - Restricted Zone
+
 
 
 
