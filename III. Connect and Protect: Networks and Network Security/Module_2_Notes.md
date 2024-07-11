@@ -264,22 +264,25 @@ A VPN tunnel is an encrypted tunnel between your device and the VPN server, whic
 
 # Security Zone
 
-Security zone: a segment of a network that protects the internal network from the internet. Part of network segmentation.
+## Security Zone
+A security zone is a segment of a network designed to protect the internal network from the internet. It is a part of network segmentation.
 
-Network Segmentation: a security technique that divides the network into segments.
+### Network Segmentation
+Network segmentation is a security technique that divides the network into segments.
+- Different organizations will have different subnets for different groups.
+- Allows administrators to isolate issues in one network segment and prevent contamination of others.
 
-Different organizations will have different subnets for different groups. This allows for admins to islotate the problem on one network and avoid having the others contaminated.
+### Types of Security Zones
+- **Uncontrolled Zone:** Any network outside the organization's control.
+- **Controlled Zone:** A subnet that protects the internal network from the uncontrolled zone.
 
-Two types of security zones
-- Uncontrolled zone: any network outside of the organizations control
-- Controlled zone: a subnet that protects the internal network from the uncontrolled zone
+### Areas in the Controlled Zone
+1. **Demilitarized Zone (DMZ)**
+2. **Internal Network**
+3. **Restricted Zone**
 
-Areas in the controlled zone:
-- Demilitarized zone (DMZ)
-- Internal Network
-- Restricted Zone
+### Example Layout
 
-Example:
 Internet - Firewall - DMZ - Firewall - Internal Network - Firewall - Restricted Zone
 
 
