@@ -324,7 +324,25 @@ Proxy servers are servers that fulfill the request of a client by forwarding the
 ### Email Proxy
 - **Purpose:** Filters spam email by verifying whether a sender's address was forged.
 
+# VPN protocols: wireguard and IPSec
 
+Remote access and site-to-site VPNs
+- remote access vpns encrpyt data sent/recieved through a personal device.
+- enterprises use site-to-site VPNS to extend their network to other networks and locations.
+  - IPSec is commonly used in site-to-site VPNs to create an encrypted tunnel between the primary and remote network. 
 
+One disadvantage of site-to-site VPNs is how complex they can be to configure and manage compared to remote VPNs.
 
+WireGuard VPN vs. IPSec VPN
+- WireGuard VPN: high speed vpn protocol.
+  - simple to set up and maintain.
+  - site to site + client-server connections
+  - newer than IPSec
+  - open source (deploy + debug easier)
+  - useful for streaming video content/ downloading large files 
+- IPSec VPN:
+  - mostly used to encrypt and authenticate data packets in order to establish secure, encrypted connections.
+  - many OS support IPSec since it is an earlier protocol
+ 
+   
 
