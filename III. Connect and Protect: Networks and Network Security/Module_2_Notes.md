@@ -324,25 +324,29 @@ Proxy servers are servers that fulfill the request of a client by forwarding the
 ### Email Proxy
 - **Purpose:** Filters spam email by verifying whether a sender's address was forged.
 
-# VPN protocols: wireguard and IPSec
+# VPN Protocols: WireGuard and IPSec
 
-Remote access and site-to-site VPNs
-- remote access vpns encrpyt data sent/recieved through a personal device.
-- enterprises use site-to-site VPNS to extend their network to other networks and locations.
-  - IPSec is commonly used in site-to-site VPNs to create an encrypted tunnel between the primary and remote network. 
+## Types of VPNs
+- **Remote Access VPNs:** Encrypt data sent/received through a personal device.
+- **Site-to-Site VPNs:** Used by enterprises to extend their network to other networks and locations.
 
-One disadvantage of site-to-site VPNs is how complex they can be to configure and manage compared to remote VPNs.
+### Site-to-Site VPNs
+- Commonly use IPSec to create an encrypted tunnel between the primary and remote network.
+- **Disadvantage:** More complex to configure and manage compared to remote VPNs.
 
-WireGuard VPN vs. IPSec VPN
-- WireGuard VPN: high speed vpn protocol.
-  - simple to set up and maintain.
-  - site to site + client-server connections
-  - newer than IPSec
-  - open source (deploy + debug easier)
-  - useful for streaming video content/ downloading large files 
-- IPSec VPN:
-  - mostly used to encrypt and authenticate data packets in order to establish secure, encrypted connections.
-  - many OS support IPSec since it is an earlier protocol
- 
+## WireGuard VPN vs. IPSec VPN
+
+### WireGuard VPN
+- **Speed:** High-speed VPN protocol.
+- **Simplicity:** Simple to set up and maintain.
+- **Versatility:** Supports site-to-site and client-server connections.
+- **Modern:** Newer than IPSec.
+- **Open Source:** Easier to deploy and debug.
+- **Use Cases:** Streaming video content and downloading large files.
+
+### IPSec VPN
+- **Function:** Encrypts and authenticates data packets to establish secure, encrypted connections.
+- **Compatibility:** Supported by many operating systems since it is an earlier protocol.
+
    
 
