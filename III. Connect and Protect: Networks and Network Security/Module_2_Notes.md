@@ -287,18 +287,25 @@ Internet - Firewall - DMZ - Firewall - Internal Network - Firewall - Restricted 
 
 # Subnetting and CIDR
 
-Subnetting: is the subdivision of a network into logical groups called subnets.
-- like a network inside a network
-- divides address range into smaller subnets within the network, which form based on the IP addresses and network mask of the devices on the network.
-- creates a network of devices to function as its own network, making the network more effecient and able to create security zones.
+## Subnetting
+Subnetting is the subdivision of a network into logical groups called subnets.
+- **Concept:** Like a network inside a network.
+- **Function:** Divides address range into smaller subnets within the network, which form based on the IP addresses and network mask of the devices on the network.
+- **Benefit:** Creates a network of devices to function as its own network, making the network more efficient and able to create security zones.
 
-Classless Inter-Domain Routing notation for subnetting (CIDR): a method of assigning subnet masks to IP addresses to create a subnet.
-- replaces classful addressing
-- allows pros to segment classful networks into smaller chunks
-- CIDR IP addresses formatted like IPv4 addresses, but include a / followed by a number at the end of the address (known as the IP network prefix).
-- this systetm reduces the number of entries in routing tables and provides more available IP addresses within networks.
+## Classless Inter-Domain Routing Notation (CIDR)
+CIDR is a method of assigning subnet masks to IP addresses to create a subnet.
+- **Replacement:** Replaces classful addressing.
+- **Function:** Allows professionals to segment classful networks into smaller chunks.
+- **Format:** CIDR IP addresses are formatted like IPv4 addresses but include a / followed by a number at the end of the address (known as the IP network prefix).
+- **Benefits:**
+  - Reduces the number of entries in routing tables.
+  - Provides more available IP addresses within networks.
 
-Benefits for security: with subnetting, pros  can create a network within their own network without requesting another network IP address from their ISP. It also uses the network bandwidth more efficiently and impproves network performaance.
+## Benefits for Security
+- **Network Creation:** With subnetting, professionals can create a network within their own network without requesting another network IP address from their ISP.
+- **Bandwidth Efficiency:** Uses network bandwidth more efficiently.
+- **Performance:** Improves network performance.
 
 
 
