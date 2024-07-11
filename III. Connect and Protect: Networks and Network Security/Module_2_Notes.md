@@ -248,16 +248,20 @@ Port filtering is a firewall function that blocks or allows certain port numbers
 - **Cloud-based Threat Intelligence Services:**
   - Leverages cloud-based intelligence to identify and mitigate threats.
 
-# Virtual private netowrks (VPNS)
+# Virtual Private Networks (VPNs)
 
-VPN: a network security service that changes your public IP address and hides your virtual location so that you can keep your data private when you are using a public network like the internet.
-- encrypts your data in transit
-- encapsulates your data in transit
+## VPN
+A VPN (Virtual Private Network) is a network security service that changes your public IP address and hides your virtual location to keep your data private when using a public network like the internet.
+- **Encryption:** Encrypts your data in transit.
+- **Encapsulation:** Encapsulates your data in transit.
 
-Encapsulation: a process performed by a VPN service that protects your data by wrapping sensitive data in other packets.
-- allows for your personal data to be encrpyted, while letting the router know the destination.
+### Encapsulation
+Encapsulation is a process performed by a VPN service that protects your data by wrapping sensitive data in other packets.
+- Allows for your personal data to be encrypted while letting the router know the destination.
 
-VPN tunnel: an encrpyted tunnel between your device and the VPN server, which is unhackable without a cryptographic key
+### VPN Tunnel
+A VPN tunnel is an encrypted tunnel between your device and the VPN server, which is unhackable without a cryptographic key.
+
 
 
 
