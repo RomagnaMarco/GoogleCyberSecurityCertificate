@@ -307,6 +307,16 @@ CIDR is a method of assigning subnet masks to IP addresses to create a subnet.
 - **Bandwidth Efficiency:** Uses network bandwidth more efficiently.
 - **Performance:** Improves network performance.
 
+# Proxy Servers
+
+Proxy servers: a server t hat fulfills the request of a client by forwarding them on to other servers
+- sits between the internet and the rest of the network.
+- uses temporary memory to store common data to prevent fetching data from internal servers each time.
+
+Different types of proxy servers:
+- forward: regulates and restricts a person's access to the internet
+- reverse: regulates and restricts the internet's access to an internal server
+- email: filters spam email by verifying whether a sender's address was forged.
 
 
 
