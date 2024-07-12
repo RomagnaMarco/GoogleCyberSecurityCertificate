@@ -34,19 +34,24 @@
 
 # Denial of Service (DoS) Attacks
 
-Distributed Denial of Service attack (DDoS): a type of denial of service attack that uses multiple devices or servers in different locations to flood the target network with unwanted traffic.
+## Distributed Denial of Service Attack (DDoS)
+- A type of denial of service attack that uses multiple devices or servers in different locations to flood the target network with unwanted traffic.
 
-SYN (synchronize) flood attack: a type of DoS attack that simulates a  TCP connection and floods a server with SYN packets.
-- if SYN requests is > number of available ports on the server, then it will be overwhelmed and unable to function.
+## SYN (Synchronize) Flood Attack
+- A type of DoS attack that simulates a TCP connection and floods a server with SYN packets.
+  - If SYN requests exceed the number of available ports on the server, it will be overwhelmed and unable to function.
+  - TCP Handshake Process:
+    1. --> SYN
+    2. <-- SYN/ACK
+    3. --> ACK
+    4. TCP connection is established.
 
-1. --> SYN
-2. <-- SYN/ACK
-3. --> ACK
-4. TCP connection is established.
+## Internet Control Message Protocol (ICMP)
+- An internet protocol used by devices to tell each other about data transmission errors across the network.
 
-Internet Control Message Protocol (ICMP): internet protocol used be devices to tell each other about data transmission errors across the network.
+## ICMP Flood
+- A type of DoS attack performed by an attacker repeatedly sending ICMP packets to a network server.
 
-ICMP Flood: a  type of DoS attack performed by an attacker repeatedly sending ICMP packets to a network server.
-
-Ping of death attack: type of DoS attack caused when a hacker pings a system by sending it an oversized ICMP packet that is bigger than 64KB.
+## Ping of Death Attack
+- A type of DoS attack caused when a hacker pings a system by sending it an oversized ICMP packet that is bigger than 64KB.
 
