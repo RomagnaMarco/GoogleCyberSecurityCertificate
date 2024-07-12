@@ -55,3 +55,36 @@
 ## Ping of Death Attack
 - A type of DoS attack caused when a hacker pings a system by sending it an oversized ICMP packet that is bigger than 64KB.
 
+# Read tcpdump logs
+
+Network protocol analyzer: AKA a packet sniffer is commonly used to investigate and monitor networks to identify suspicious activity.
+
+Common analyzers:
+- SolarWinds NetFlow  Traffic Analyzer
+- MangeEngine OpManager
+- Azure Network Watcher
+- WireShark
+- tcpdump
+
+tcpdump: a CLE network protocol analyzer, providing a brief analysis of packets and converts key info about network  traffic into a human readable format.
+- lightweight (little memory and low CPU usage)
+- open source libpcap library.
+- text based for terminal
+- can be installed on Unix-based systems as well as Linux
+- prints packet info to terminal
+- displays source IP address, destination IP address, used port numbers
+
+Information recieved by a packet capture includes:
+- Timestamp: hours, minutes,  seconds, and fractions of a second format
+- Source IP: packets origin via source IP address
+- Source Port: the port number where the packet originated
+- Destination IP: the destination IP address where the packet is being transmitted to
+- Destination Port: the port number wher ethe packet is being transmitted to.
+
+Common uses of tcpdump:
+- establish a baseline for network traffic patterns and network utilization metrics
+- detect and identify malicious traffic
+- create customized alerts to send the right notifications when network issues or security threats arise
+- locate unauthorized instant messaging (IM), traffic, or wireless access points
+
+
