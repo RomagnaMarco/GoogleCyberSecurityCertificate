@@ -55,36 +55,40 @@
 ## Ping of Death Attack
 - A type of DoS attack caused when a hacker pings a system by sending it an oversized ICMP packet that is bigger than 64KB.
 
-# Read tcpdump logs
+# Read tcpdump Logs
 
-Network protocol analyzer: AKA a packet sniffer is commonly used to investigate and monitor networks to identify suspicious activity.
+## Network Protocol Analyzer
+- Also known as a packet sniffer, it is commonly used to investigate and monitor networks to identify suspicious activity.
 
-Common analyzers:
-- SolarWinds NetFlow  Traffic Analyzer
-- MangeEngine OpManager
+## Common Analyzers
+- SolarWinds NetFlow Traffic Analyzer
+- ManageEngine OpManager
 - Azure Network Watcher
 - WireShark
 - tcpdump
 
-tcpdump: a CLE network protocol analyzer, providing a brief analysis of packets and converts key info about network  traffic into a human readable format.
-- lightweight (little memory and low CPU usage)
-- open source libpcap library.
-- text based for terminal
-- can be installed on Unix-based systems as well as Linux
-- prints packet info to terminal
-- displays source IP address, destination IP address, used port numbers
+## tcpdump
+- A command-line interface (CLI) network protocol analyzer providing a brief analysis of packets and converting key information about network traffic into a human-readable format.
+- Lightweight (little memory and low CPU usage)
+- Uses the open-source libpcap library
+- Text-based for terminal
+- Can be installed on Unix-based systems as well as Linux
+- Prints packet information to terminal
+- Displays source IP address, destination IP address, and used port numbers
 
-Information recieved by a packet capture includes:
-- Timestamp: hours, minutes,  seconds, and fractions of a second format
-- Source IP: packets origin via source IP address
-- Source Port: the port number where the packet originated
-- Destination IP: the destination IP address where the packet is being transmitted to
-- Destination Port: the port number wher ethe packet is being transmitted to.
+## Information Received by a Packet Capture
+- **Timestamp:** Hours, minutes, seconds, and fractions of a second format
+- **Source IP:** Packet's origin via source IP address
+- **Source Port:** The port number where the packet originated
+- **Destination IP:** The destination IP address where the packet is being transmitted to
+- **Destination Port:** The port number where the packet is being transmitted to
 
-Common uses of tcpdump:
-- establish a baseline for network traffic patterns and network utilization metrics
-- detect and identify malicious traffic
-- create customized alerts to send the right notifications when network issues or security threats arise
-- locate unauthorized instant messaging (IM), traffic, or wireless access points
+## Common Uses of tcpdump
+- Establish a baseline for network traffic patterns and network utilization metrics
+- Detect and identify malicious traffic
+- Create customized alerts to send the right notifications when network issues or security threats arise
+- Locate unauthorized instant messaging (IM) traffic or wireless access points
 
-
+##  Botnet
+- a collection of computers infected by malware and under control of a single threat actor, known as a bot-herder.
+- this leads to a type of attack where the herder can have all the bots send packets to a target system resulting in a DDoS attack.
