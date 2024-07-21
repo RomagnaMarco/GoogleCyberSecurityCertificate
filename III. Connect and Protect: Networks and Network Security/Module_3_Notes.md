@@ -92,3 +92,16 @@
 ##  Botnet
 - a collection of computers infected by malware and under control of a single threat actor, known as a bot-herder.
 - this leads to a type of attack where the herder can have all the bots send packets to a target system resulting in a DDoS attack.
+
+# Malicious packet sniffing
+
+Malicious actors use packet sniffing to spy on packet data and use them to their advantage. They can also change data with a packet sniffer.
+
+Two types of packet snifffing
+- passive: where data packets are read in transit
+- active: where data packets are manipulated in transit
+
+To prevent packet sniffing:
+- VPN Tunnel
+- use HTTPS domain websites
+- avoid unprotected Wifi in protected places (they don't use encryption)
