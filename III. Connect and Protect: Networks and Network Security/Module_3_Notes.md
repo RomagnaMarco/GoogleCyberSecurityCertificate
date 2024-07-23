@@ -105,3 +105,8 @@ To prevent packet sniffing:
 - VPN Tunnel
 - use HTTPS domain websites
 - avoid unprotected Wifi in protected places (they don't use encryption)
+
+# IP spoofing
+
+IP spoofing: a network attack performed when an attacker changes the source IP of a data packet to impersonate an authorized system and gain access to a network.
+
