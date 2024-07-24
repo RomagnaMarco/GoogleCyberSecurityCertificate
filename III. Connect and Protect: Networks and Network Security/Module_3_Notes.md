@@ -110,3 +110,10 @@ To prevent packet sniffing:
 
 IP spoofing: a network attack performed when an attacker changes the source IP of a data packet to impersonate an authorized system and gain access to a network.
 
+## Common IP spoofing attacks
+- On-path attack: malicious actor places themselves in the middle of an authorized connection and intercepts or altlers the data in transit
+- Replay attack: malicious actor intercepts a data packet in transit and delays it or repeats it at another time.
+- Smurf attack: an attacker sniffs an unauthorized user's IP address and floods it with packets
+
+Firewalls can be configured to protect against IP spoofing and encryption should always be implemented to protect your data.
+
