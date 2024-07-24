@@ -117,3 +117,16 @@ IP spoofing: a network attack performed when an attacker changes the source IP o
 
 Firewalls can be configured to protect against IP spoofing and encryption should always be implemented to protect your data.
 
+# Overview of interception tactics
+
+Network Interface Card (NIC): a piece of hardware that connects the device to a network.
+- Reads the data transmismsion
+- contains device's MAC address
+- accepts packet and sends it to the device to process info based on the protocol.
+
+The NIC can be set to promiscuous mode (accepts all traffic on a network)
+
+## Other notes for spoofing
+An On path attack is also known as a meddler-in-the middle attack.
+
+ The principle of defense-in-depth: layer a defense using multiple strategies. For spoofing, you can use industry standard encryption.
