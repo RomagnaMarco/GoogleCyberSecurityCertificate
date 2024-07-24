@@ -93,40 +93,36 @@
 - a collection of computers infected by malware and under control of a single threat actor, known as a bot-herder.
 - this leads to a type of attack where the herder can have all the bots send packets to a target system resulting in a DDoS attack.
 
-# Malicious packet sniffing
+# Malicious Packet Sniffing
 
-Malicious actors use packet sniffing to spy on packet data and use them to their advantage. They can also change data with a packet sniffer.
+Malicious actors use packet sniffing to spy on packet data and use it to their advantage. They can also manipulate data with a packet sniffer.
 
-Two types of packet snifffing
-- passive: where data packets are read in transit
-- active: where data packets are manipulated in transit
+## Two Types of Packet Sniffing
+- **Passive:** Where data packets are read in transit without interference.
+- **Active:** Where data packets are manipulated in transit.
 
-To prevent packet sniffing:
-- VPN Tunnel
-- use HTTPS domain websites
-- avoid unprotected Wifi in protected places (they don't use encryption)
+## Preventing Packet Sniffing
+- **VPN Tunnel:** Encapsulates and encrypts data to protect it during transit.
+- **Use HTTPS Domains:** Ensures that data sent and received is encrypted.
+- **Avoid Unprotected WiFi:** Especially in public places, as these networks typically do not use encryption.
 
-# IP spoofing
+# IP Spoofing
 
-IP spoofing: a network attack performed when an attacker changes the source IP of a data packet to impersonate an authorized system and gain access to a network.
+IP spoofing is a network attack performed when an attacker changes the source IP of a data packet to impersonate an authorized system and gain access to a network.
 
-## Common IP spoofing attacks
-- On-path attack: malicious actor places themselves in the middle of an authorized connection and intercepts or altlers the data in transit
-- Replay attack: malicious actor intercepts a data packet in transit and delays it or repeats it at another time.
-- Smurf attack: an attacker sniffs an unauthorized user's IP address and floods it with packets
+## Common IP Spoofing Attacks
+- **On-path Attack:** A malicious actor places themselves in the middle of an authorized connection, intercepting or altering the data in transit.
+- **Replay Attack:** A malicious actor intercepts a data packet in transit and delays or repeats it at another time.
+- **Smurf Attack:** An attacker uses a spoofed IP address to flood a target with overwhelming amounts of traffic.
 
-Firewalls can be configured to protect against IP spoofing and encryption should always be implemented to protect your data.
+## Protection Against IP Spoofing
+- **Firewalls:** Can be configured to detect and block IP spoofing.
+- **Encryption:** Always implement encryption to protect your data.
 
-# Overview of interception tactics
+# Overview of Interception Tactics
 
-Network Interface Card (NIC): a piece of hardware that connects the device to a network.
-- Reads the data transmismsion
-- contains device's MAC address
-- accepts packet and sends it to the device to process info based on the protocol.
-
-The NIC can be set to promiscuous mode (accepts all traffic on a network)
-
-## Other notes for spoofing
-An On path attack is also known as a meddler-in-the middle attack.
-
- The principle of defense-in-depth: layer a defense using multiple strategies. For spoofing, you can use industry standard encryption.
+## Network Interface Card (NIC)
+- A piece of hardware that connects the device to a network.
+- Reads data transmissions.
+- Contains the device's MAC address.
+- Accepts packets and sends them to the device to process information based on the protocol.
