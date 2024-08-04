@@ -1,6 +1,6 @@
 # Security Hardening
 
-## Security Hardening: the process of strengthening a system to reduce the vulnerability and attack surface.
+**Security Hardening**: the process of strengthening a system to reduce the vulnerability and attack surface.
 - operated on:
   - Hardware
   - OS
@@ -17,3 +17,4 @@ Security professionals will regularly maintain security hardening procedures to 
 - Pen testing
 - remove unused ports, applications, or services and minimized access to reduce attack surface.
 
+# OS Hardening
