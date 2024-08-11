@@ -1,5 +1,14 @@
 # Apply OS hardening techniques
 
+# Security Incidident Report
+
+## Section 1: Identify the network protocol involved in the incident
+
+## Section 2: Document the incident
+
+## Section 3: Recommend one remediation for brute force attacks
+
+
 # Scenario
 You are a cybersecurity analyst for yummyrecipesforme.com, a website that sells recipes and cookbooks. A former employee has decided to lure users to a fake website with malware. 
 
@@ -83,11 +92,3 @@ length 0
 length 0
 
 ...<a lot of traffic on the port 80>...
-
-# Security Incidident Report
-
-## Section 1: Identify the network protocol involved in the incident
-
-## Section 2: Document the incident
-
-## Section 3: Recommend one remediation for brute force attacks
