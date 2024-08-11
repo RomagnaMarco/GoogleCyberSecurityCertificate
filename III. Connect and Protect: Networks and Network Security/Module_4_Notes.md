@@ -36,34 +36,32 @@ Security professionals will regularly maintain security hardening procedures to 
 - Something you have
 - Something unique about you
 
-# Brute force attacks and OS hardening
+# Brute Force Attacks and OS Hardening
 
-Brute force attack: a trial and error process of discovering private information
-- simple: guessing
-- dictionary: list of commonly used passwords and stolen credentials from previous breaches
+**Brute Force Attack:** A trial and error process of discovering private information.
+- **Simple:** Guessing.
+- **Dictionary:** List of commonly used passwords and stolen credentials from previous breaches.
 
-Virtual machines (VMs): are software versions of physical computers.
-- Add a layer of security from their ability to run code in an isolated environment
-  - can be deleted and replaced with new VM image after testing malware
-- useful to investigate infected machines or to run malware.
-- ability to revert to previous states
-- small risk a malicious program can escape virtualization and access the host machine
+**Virtual Machines (VMs):** Software versions of physical computers.
+- Add a layer of security by running code in an isolated environment.
+  - Can be deleted and replaced with a new VM image after testing malware.
+- Useful to investigate infected machines or to run malware.
+- Ability to revert to previous states.
+- Small risk that a malicious program can escape virtualization and access the host machine.
 
-Sandbox environments: are for testing software or programs seperately from your network. They can be either physical PCs or cloud based VMs.
-- test patches
-- identifying bugs
-- detecting cybersecurity vulnerabilities
-- evaluating suspicious software or malicious code
-- simulate attack scenarios
+**Sandbox Environments:** Used for testing software or programs separately from your network. They can be either physical PCs or cloud-based VMs.
+- Test patches.
+- Identify bugs.
+- Detect cybersecurity vulnerabilities.
+- Evaluate suspicious software or malicious code.
+- Simulate attack scenarios.
 
-NOTE: attackers can program their malware to behave as harmless software when run inside sandbox environments via certain detection methods.
+**NOTE:** Attackers can program their malware to behave as harmless software when run inside sandbox environments via certain detection methods.
 
-Prevention measures:
-- hashing: converts info into a unique value that can be used to determine its integrity. A one way function, making decryption impossible.
-- salting:  adds random characters to hashed passwords, increasing their complexity and thus security
-- MFA / 2FA: requires several verifications a user is who they say they are in order to access a system or network
-- CAPTCHA: Completely Automated Public Turing test to tell Computers and Humans Apart.
-- reCAPTCHA: free CAPTCHA service from  Google that helps protect websites from bots and malicious software.
-- Password policies: guidelines on how long or complex a password is, when to update it, and login attempts max.
-
-
+**Prevention Measures:**
+- **Hashing:** Converts information into a unique value that can be used to determine its integrity. A one-way function, making decryption impossible.
+- **Salting:** Adds random characters to hashed passwords, increasing their complexity and thus security.
+- **MFA / 2FA:** Requires several verifications to ensure a user is who they say they are in order to access a system or network.
+- **CAPTCHA:** Completely Automated Public Turing test to tell Computers and Humans Apart.
+- **reCAPTCHA:** Free CAPTCHA service from Google that helps protect websites from bots and malicious software.
+- **Password Policies:** Guidelines on how long or complex a password should be, when to update it, and the maximum number of login attempts.
