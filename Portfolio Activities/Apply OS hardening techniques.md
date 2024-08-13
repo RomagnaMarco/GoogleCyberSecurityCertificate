@@ -3,11 +3,19 @@
 # Security Incidident Report
 
 ## Section 1: Identify the network protocol involved in the incident
-
+The protocol involved was HTTP (Hypertext transfer protocol), since it was used when the tcpdump log file showed usage of it when the malicious file went to the users' PC
 ## Section 2: Document the incident
+The attacker used a dictionary attack to get into an administrative account.
+With admin rights, they added malware for now vulnerable users.
+Affected users were directe to the fake site with malware.
+Users report their computer running slower after downloading new recipes
+We analyze the tcpdump for the website url in a virtual sandbox
+In the sandbox we are directed to a different url and have installed the malware.
+Analysts confirm it was a brute force attack, and there were no controls in place.
 
 ## Section 3: Recommend one remediation for brute force attacks
-
+Add security guidelines for passwords. These should focus on length, complexity, and occasionally changed passwords. In addition, limitting the login attempts and or login locations should be considered.
+Other forms of Multi factor authentication are encouraged.
 
 # Scenario
 You are a cybersecurity analyst for yummyrecipesforme.com, a website that sells recipes and cookbooks. A former employee has decided to lure users to a fake website with malware. 
