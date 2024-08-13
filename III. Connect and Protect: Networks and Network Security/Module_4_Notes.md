@@ -90,35 +90,47 @@ Security professionals will regularly maintain security hardening procedures to 
 ### **Encryption:**
 - All network communication should be encrypted using the latest encryption standards.
 
-# Network security applications
+# Network Security Applications
 
-Firewall: block or allow traffics based on a set of rules. data packets enter a network, check their packet header and decide to allow or deny access based on its port number.
-- Stateful
-- Stateless
-- NGFW
+## **Firewall:**
+- **Function:** Blocks or allows traffic based on a set of rules. When data packets enter a network, the firewall checks their packet header and decides to allow or deny access based on its port number.
+- **Types:**
+  - **Stateful:** Tracks the state of active connections and makes decisions based on the context of the traffic.
+  - **Stateless:** Makes decisions based on the individual packets without considering the state of the connection.
+  - **NGFW (Next-Generation Firewall):** Includes advanced features like application awareness, integrated intrusion prevention, and cloud-delivered threat intelligence.
 
-Intrusion Detection System (IDS): monitors system activity and alerts on possible intrusions. Detects based on signature of malicious traffic.
-- detects known attacks after configuration
-- sniffs data packets as they move across the network
-- alerts admins of suspicious activity
-- limitations: only scan for known attacks or obvious anomalies. Doesn't actually stop incoming traffic.
+## **Intrusion Detection System (IDS):**
+- **Function:** Monitors system activity and alerts on possible intrusions by detecting malicious traffic signatures.
+- **Key Features:**
+  - Detects known attacks after configuration.
+  - Sniffs data packets as they move across the network.
+  - Alerts admins of suspicious activity.
+- **Limitations:** 
+  - Only scans for known attacks or obvious anomalies.
+  - Does not stop incoming traffic; it only alerts.
 
-Intrusion Prevention System (IPS): monitors system activity for intrusive activity and takes action to stop the activity
-- more protection than IDS. stops anomalies when detected.
-- Sits behind the firewall in the network architecture. (Disrupts data stream before sensitive part of network reached)
-- limitation: Inline (if it breaks, the connection between the private network and the internet breaks). Also there are false positives (drop legitimate traffic).
+## **Intrusion Prevention System (IPS):**
+- **Function:** Monitors system activity for intrusive activity and takes action to stop the activity.
+- **Key Features:**
+  - Provides more protection than IDS by stopping anomalies when detected.
+  - Sits behind the firewall in the network architecture, disrupting the data stream before it reaches sensitive parts of the network.
+- **Limitations:**
+  - Inline operation means if it fails, the connection between the private network and the internet can be interrupted.
+  - Possibility of false positives, which can drop legitimate traffic.
 
-Full packet capture devices: record and analyze all the data transmitted over a network.
-- aid investigation of IDS alerts
+## **Full Packet Capture Devices:**
+- **Function:** Records and analyzes all the data transmitted over a network.
+- **Purpose:** Aids in the investigation of IDS alerts by providing a complete view of the network traffic.
 
-Security Information and Event Management (SIEM)
-- work in real time and report suspicious activity in a centralized dashboard.
-- analyze network data sourced from IDSs, IPSs, firewalls, VPNs, proxiesm and DNS logs.
-- aggregates security data
+## **Security Information and Event Management (SIEM):**
+- **Function:** Works in real-time to report suspicious activity through a centralized dashboard.
+- **Key Features:**
+  - Analyzes network data sourced from IDSs, IPSs, firewalls, VPNs, proxies, and DNS logs.
+  - Aggregates security data to provide a comprehensive view of the network's security status.
+- **Common SIEM Tools:**
+  - **Splunk**
+  - **Chronicle (Google)**
 
-Common SIEM tools are:
-- Splunk
-- Chronicle (google)
 
 
  
