@@ -90,6 +90,36 @@ Security professionals will regularly maintain security hardening procedures to 
 ### **Encryption:**
 - All network communication should be encrypted using the latest encryption standards.
 
+# Network security applications
+
+Firewall: block or allow traffics based on a set of rules. data packets enter a network, check their packet header and decide to allow or deny access based on its port number.
+- Stateful
+- Stateless
+- NGFW
+
+Intrusion Detection System (IDS): monitors system activity and alerts on possible intrusions. Detects based on signature of malicious traffic.
+- detects known attacks after configuration
+- sniffs data packets as they move across the network
+- alerts admins of suspicious activity
+- limitations: only scan for known attacks or obvious anomalies. Doesn't actually stop incoming traffic.
+
+Intrusion Prevention System (IPS): monitors system activity for intrusive activity and takes action to stop the activity
+- more protection than IDS. stops anomalies when detected.
+- Sits behind the firewall in the network architecture. (Disrupts data stream before sensitive part of network reached)
+- limitation: Inline (if it breaks, the connection between the private network and the internet breaks). Also there are false positives (drop legitimate traffic).
+
+Full packet capture devices: record and analyze all the data transmitted over a network.
+- aid investigation of IDS alerts
+
+Security Information and Event Management (SIEM)
+- work in real time and report suspicious activity in a centralized dashboard.
+- analyze network data sourced from IDSs, IPSs, firewalls, VPNs, proxiesm and DNS logs.
+- aggregates security data
+
+Common SIEM tools are:
+- Splunk
+- Chronicle (google)
+
 
  
   
