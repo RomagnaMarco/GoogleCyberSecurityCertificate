@@ -66,28 +66,30 @@ Security professionals will regularly maintain security hardening procedures to 
 - **reCAPTCHA:** Free CAPTCHA service from Google that helps protect websites from bots and malicious software.
 - **Password Policies:** Guidelines on how long or complex a password should be, when to update it, and the maximum number of login attempts.
 
-# Network hardening
+# Network Hardening
 
-Network security hardening:
-- Port filtering
-- Network access Privilege
-- Encryption
+## **Network Security Hardening:**
+- **Port Filtering:** 
+- **Network Access Privilege:** 
+- **Encryption:** 
 
-  Tasks performed
-  - Firewall rules maintenance
-  - Network log analysis
-  - Patch updates
-  - Server backups
+### **Tasks Performed:**
+- **Firewall Rules Maintenance:** Regularly updating and managing firewall rules to control network traffic.
+- **Network Log Analysis:** The process of examining network logs to identify events of interest.
+- **Patch Updates:** Ensuring that all network devices and software are up to date with the latest security patches.
+- **Server Backups:** Regular backups of server data to ensure data integrity and availability.
 
-Network log analysis: the process of examining network logs to identify events of interest.
-Security Information and Event Management Tool (SIEM): application that collects and analyzes log data to monitor critical activities in an organization.
+### **Network Log Analysis:**
+- **Security Information and Event Management (SIEM) Tool:** An application that collects and analyzes log data to monitor critical activities in an organization.
 
-Tasks Performed once:
-Port Filtering: a firewall function that blocks or allows certain port numbers to limit unwanted communication.
-Network Segmentation: creates isolated subnets for different departments in an organization. This limits issues to their own subnet and limit user access to each network. 
-- can also seperate different security zones.
+### **Tasks Performed Once:**
+- **Port Filtering:** A firewall function that blocks or allows certain port numbers to limit unwanted communication.
+- **Network Segmentation:** Creates isolated subnets for different departments in an organization. This limits issues to their own subnet and restricts user access to each network.
+  - Can also separate different security zones.
 
-All network communication should be encrypted using the latest encryption standards.
+### **Encryption:**
+- All network communication should be encrypted using the latest encryption standards.
+
 
  
   
