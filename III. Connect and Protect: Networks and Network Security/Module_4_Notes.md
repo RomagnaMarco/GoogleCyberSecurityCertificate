@@ -65,3 +65,29 @@ Security professionals will regularly maintain security hardening procedures to 
 - **CAPTCHA:** Completely Automated Public Turing test to tell Computers and Humans Apart.
 - **reCAPTCHA:** Free CAPTCHA service from Google that helps protect websites from bots and malicious software.
 - **Password Policies:** Guidelines on how long or complex a password should be, when to update it, and the maximum number of login attempts.
+
+# Network hardening
+
+Network security hardening:
+- Port filtering
+- Network access Privilege
+- Encryption
+
+  Tasks performed
+  - Firewall rules maintenance
+  - Network log analysis
+  - Patch updates
+  - Server backups
+
+Network log analysis: the process of examining network logs to identify events of interest.
+Security Information and Event Management Tool (SIEM): application that collects and analyzes log data to monitor critical activities in an organization.
+
+Tasks Performed once:
+Port Filtering: a firewall function that blocks or allows certain port numbers to limit unwanted communication.
+Network Segmentation: creates isolated subnets for different departments in an organization. This limits issues to their own subnet and limit user access to each network. 
+- can also seperate different security zones.
+
+All network communication should be encrypted using the latest encryption standards.
+
+ 
+  
